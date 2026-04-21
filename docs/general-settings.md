@@ -10,7 +10,7 @@ Configure your FLIK merchant dashboard settings to customize your experience and
 3. Make your changes
 4. Click **Save** or **Simpan**
 
-**Screenshot Reference**: `/assets/screenshots/General/Gear Settings Clicked.png`
+![Gear Settings Clicked](../assets/screenshots/General/Gear%20Settings%20Clicked.png)
 
 ## Settings Categories
 

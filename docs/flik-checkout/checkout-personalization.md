@@ -18,7 +18,7 @@ Checkout Personalization allows you to:
 2. Select **Checkout Personalization** or **Personalisasi Checkout**
 3. Access the customization page
 
-**Screenshot Reference**: `/assets/screenshots/FLIK Checkout - Personalisasi Checkout Page/Personalization Checkout Page.png`
+![Personalization Checkout Page](../../assets/screenshots/FLIK%20Checkout%20-%20Personalisasi%20Checkout%20Page/Personalization%20Checkout%20Page.png)
 
 ## Personalization Options
 

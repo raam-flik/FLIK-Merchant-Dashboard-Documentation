@@ -8,13 +8,13 @@ Post Purchase Offer allows you to target customers who recently made purchases w
 
 ## Post Purchase Offer List Page
 
-**Screenshot Reference**: `/assets/screenshots/Promosi - Post Purchase Offer/List of Post Purchase Offer.png`
+![List of Post Purchase Offer](../../assets/screenshots/Promosi%20-%20Post%20Purchase%20Offer/List%20of%20Post%20Purchase%20Offer.png)
 
 View all post-purchase campaigns with conversion and engagement metrics.
 
 ### Creating Post Purchase Offer
 
-**Screenshot Reference**: `/assets/screenshots/Promosi - Post Purchase Offer/Create Post Purchase Offer.png`
+![Create Post Purchase Offer](../../assets/screenshots/Promosi%20-%20Post%20Purchase%20Offer/Create%20Post%20Purchase%20Offer.png)
 
 #### Offer Details
 - **Offer Name**: Campaign identifier

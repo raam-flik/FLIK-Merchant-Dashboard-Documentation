@@ -8,7 +8,7 @@ Saldo (Balance) allows you to track your account funds, transaction history, and
 
 ## Saldo Dashboard
 
-**Screenshot Reference**: `/assets/screenshots/Saldo Page/Saldo Page.png`
+![Saldo Page](../../assets/screenshots/Saldo%20Page/Saldo%20Page.png)
 
 View your current account status and financial summary.
 
@@ -61,7 +61,7 @@ List of all account transactions:
 
 ### Linked Payment Methods
 
-**Screenshot Reference**: `/assets/screenshots/Saldo Page/Pengaturan Akun Pop Up.png`
+![Pengaturan Akun Pop Up](../../assets/screenshots/Saldo%20Page/Pengaturan%20Akun%20Pop%20Up.png)
 
 Manage payment accounts:
 - **Bank Account**: Primary account
@@ -89,7 +89,7 @@ Manage payment accounts:
 
 ### Buy Service Credits
 
-**Screenshot Reference**: `/assets/screenshots/Saldo Page/Pencarian Dana pop up.png`
+![Pencarian Dana pop up](../../assets/screenshots/Saldo%20Page/Pencarian%20Dana%20pop%20up.png)
 
 Purchase credits for services:
 
@@ -119,7 +119,7 @@ Purchase credits for services:
 
 ### Manage Account
 
-**Screenshot Reference**: `/assets/screenshots/Saldo Page/Pengaturan Akun Pop Up.png`
+![Pengaturan Akun Pop Up](../../assets/screenshots/Saldo%20Page/Pengaturan%20Akun%20Pop%20Up.png)
 
 Configure account options:
 

@@ -8,7 +8,7 @@ Manage your merchant profile, account information, and personal settings.
 2. Select **Profile** or **Profil** from the dropdown menu
 3. You will be directed to your profile page
 
-**Screenshot Reference**: `/assets/screenshots/Profile Page/Profile Page.png`
+![Profile Page](../assets/screenshots/Profile%20Page/Profile%20Page.png)
 
 ## Profile Information
 

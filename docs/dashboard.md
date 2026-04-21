@@ -59,7 +59,7 @@ From the dashboard, you can quickly:
 - Launch a promotion campaign
 - View customer insights
 
-**Screenshot Reference**: `/assets/screenshots/Dashboard Page/Dashboard Page.png`
+![Dashboard Page](../assets/screenshots/Dashboard%20Page/Dashboard%20Page.png)
 
 ## General Settings & Interactions
 
@@ -71,7 +71,7 @@ Click the gear icon in the top-right area to access:
 - System settings
 - Logout option
 
-**Screenshot Reference**: `/assets/screenshots/General/Gear Settings Clicked.png`
+![Gear Settings Clicked](../assets/screenshots/General/Gear%20Settings%20Clicked.png)
 
 ### Profile Management
 Click your profile icon to:
@@ -82,7 +82,7 @@ Click your profile icon to:
 - View connected accounts
 - Logout
 
-**Screenshot Reference**: `/assets/screenshots/General/Profile Clicked.png`
+![Profile Clicked](../assets/screenshots/General/Profile%20Clicked.png)
 
 ### Produk Kami (Our Products)
 Access information about:
@@ -92,7 +92,7 @@ Access information about:
 - Subscription plans
 - Upgrade options
 
-**Screenshot Reference**: `/assets/screenshots/General/Produk Kami Page.png`
+![Produk Kami Page](../assets/screenshots/General/Produk%20Kami%20Page.png)
 
 ### Beli Kredit (Buy Credit)
 Purchase credits for:
@@ -102,7 +102,7 @@ Purchase credits for:
 - Advanced analytics
 - Additional storage
 
-**Screenshot Reference**: `/assets/screenshots/General/Pop Up Beli Kredit.png`
+![Pop Up Beli Kredit](../assets/screenshots/General/Pop%20Up%20Beli%20Kredit.png)
 
 ### Help & Support
 Click the question mark icon to access:
@@ -112,7 +112,7 @@ Click the question mark icon to access:
 - Contact support
 - Report issues
 
-**Screenshot Reference**: `/assets/screenshots/General/Punya Pertanyaan Page.png`
+![Punya Pertanyaan Page](../assets/screenshots/General/Punya%20Pertanyaan%20Page.png)
 
 ## Dashboard Tips
 

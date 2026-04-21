@@ -25,7 +25,7 @@ The login page is the entry point for existing merchants to access the dashboard
 4. Click the login button
 5. You will be redirected to the dashboard
 
-**Screenshot Reference**: `/assets/screenshots/Login Page/Login Page.png`
+![Login Page](../assets/screenshots/Login%20Page/Login%20Page.png)
 
 ## Registration
 
@@ -50,7 +50,7 @@ New merchants can create an account using the registration page.
 5. Verify your email if required
 6. You can now login to the dashboard
 
-**Screenshot Reference**: `/assets/screenshots/Login Page/Register Page.png`
+![Register Page](../assets/screenshots/Login%20Page/Register%20Page.png)
 
 ### Account Activation
 - Check your email for activation link
@@ -72,7 +72,7 @@ If you forget your password, you can reset it using the password recovery featur
 8. Click "Reset Password"
 9. You will be redirected to login with your new password
 
-**Screenshot Reference**: `/assets/screenshots/Login Page/Reset Password Page.png`
+![Reset Password Page](../assets/screenshots/Login%20Page/Reset%20Password%20Page.png)
 
 ### Important Security Notes
 - Use a strong password (mix of uppercase, lowercase, numbers, symbols)

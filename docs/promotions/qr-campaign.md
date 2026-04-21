@@ -8,13 +8,13 @@ QR Campaign allows you to generate trackable QR codes linked to promotions.
 
 ## QR Campaign List Page
 
-**Screenshot Reference**: `/assets/screenshots/Promosi - QR Campaign/List of QR Campaign.png`
+![List of QR Campaign](../../assets/screenshots/Promosi%20-%20QR%20Campaign/List%20of%20QR%20Campaign.png)
 
 View all QR campaigns with scan metrics and engagement data.
 
 ### Creating QR Campaign
 
-**Screenshot Reference**: `/assets/screenshots/Promosi - QR Campaign/Create QR Campaign.png`
+![Create QR Campaign](../../assets/screenshots/Promosi%20-%20QR%20Campaign/Create%20QR%20Campaign.png)
 
 #### Campaign Details
 - **Campaign Name**: Campaign identifier

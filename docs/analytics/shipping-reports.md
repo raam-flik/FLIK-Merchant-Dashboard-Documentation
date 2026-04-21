@@ -8,7 +8,7 @@ Shipping Reports provides detailed insights into your delivery operations and ca
 
 ## Shipping Analytics Dashboard
 
-**Screenshot Reference**: `/assets/screenshots/Laporan & Analisis FLIK Shipping/Laporan & Analisis FLIK Shipping.png`
+![Laporan & Analisis FLIK Shipping](../../assets/screenshots/Laporan%20&%20Analisis%20FLIK%20Shipping/Laporan%20&%20Analisis%20FLIK%20Shipping.png)
 
 ### Key Metrics
 

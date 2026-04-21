@@ -8,7 +8,7 @@ Customer Management allows you to centralize customer information and track inte
 
 ## Customer List Page
 
-**Screenshot Reference**: `/assets/screenshots/Marketing - Customer/Customer Page.png`
+![Customer Page](../../assets/screenshots/Marketing%20-%20Customer/Customer%20Page.png)
 
 View and manage all customer information with filters and search capabilities.
 

@@ -21,11 +21,11 @@ Lacak Pengiriman (Shipment Tracking) allows you to:
 ## Tracking Methods
 
 ### Method 1: Search by Tracking Number
-1. Click **Cek Resi** or **Check Tracking**
-2. Enter tracking number
 
-**Screenshot Reference**: `/assets/screenshots/FLIK Shipping - Lacak Pengiriman/Cek Resi Empty State.png`
+![Cek Resi Empty State](../../assets/screenshots/FLIK%20Shipping%20-%20Lacak%20Pengiriman/Cek%20Resi%20Empty%20State.png)
 
+1. Click **Cek Resi** or **Check Tracking** 
+2. Enter tracking number in the form shown above
 3. Click **Search** or **Cari**
 4. View tracking results
 
@@ -43,9 +43,9 @@ Lacak Pengiriman (Shipment Tracking) allows you to:
 
 ### Filled State (Tracking Found)
 
-**Screenshot Reference**: `/assets/screenshots/FLIK Shipping - Lacak Pengiriman/Cek Resi Filled State.png`
+![Cek Resi Filled State](../../assets/screenshots/FLIK%20Shipping%20-%20Lacak%20Pengiriman/Cek%20Resi%20Filled%20State.png)
 
-When tracking information is found:
+When tracking information is found, the interface above displays all the tracking details:
 
 #### Tracking Information
 - **Tracking Number**: Resi number
@@ -95,9 +95,7 @@ View chronological updates:
 
 ### Empty State (No Tracking Found)
 
-**Screenshot Reference**: `/assets/screenshots/FLIK Shipping - Lacak Pengiriman/Cek Resi Empty State.png`
-
-When tracking not found:
+When tracking not found, you'll see the empty search state shown earlier in Method 1.
 
 #### Possible Reasons
 - Tracking number not yet active

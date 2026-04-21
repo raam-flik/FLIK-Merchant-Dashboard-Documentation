@@ -8,13 +8,13 @@ Voucher Management allows you to create promotional codes and discounts for cust
 
 ## Voucher List Page
 
-**Screenshot Reference**: `/assets/screenshots/Promosi - Voucher/List Voucher Page.png`
+![List Voucher Page](../../assets/screenshots/Promosi%20-%20Voucher/List%20Voucher%20Page.png)
 
 View all created vouchers with status, usage, and performance metrics.
 
 ### Creating a Voucher
 
-**Screenshot Reference**: `/assets/screenshots/Promosi - Voucher/Buat Voucher Page.png`
+![Buat Voucher Page](../../assets/screenshots/Promosi%20-%20Voucher/Buat%20Voucher%20Page.png)
 
 #### Basic Information
 - **Voucher Code**: Unique discount code

@@ -19,7 +19,7 @@ The Order Form Builder enables you to:
 2. Select **Order Form** or **Formulir Pesanan**
 3. View list of all created order forms
 
-**Screenshot Reference**: `/assets/screenshots/FLIK Checkout - Order Form Page/List Order Form Page.png`
+![Order Form List Page](../../assets/screenshots/FLIK%20Checkout%20-%20Order%20Form%20Page/List%20Order%20Form%20Page.png)
 
 ### List Features
 - **View all order forms** created in your store
@@ -37,10 +37,12 @@ The Order Form Builder enables you to:
 ## Creating an Order Form
 
 ### Step 1: Start Form Creation
-1. Click **Buat Order Form** or **Create Order Form** button
-2. Pop-up window opens: **Create Order Form**
 
-**Screenshot Reference**: `/assets/screenshots/FLIK Checkout - Order Form Page/Pop Up Create Order Form.png`
+![Create Order Form Pop-up](../../assets/screenshots/FLIK%20Checkout%20-%20Order%20Form%20Page/Pop%20Up%20Create%20Order%20Form.png)
+
+1. Click **Buat Order Form** or **Create Order Form** button
+2. Pop-up window opens with form configuration options
+3. Fill in form details as shown above
 
 ### Step 2: Form Configuration Pop-up
 
@@ -58,12 +60,17 @@ In the Create Order Form pop-up, enter:
 - **Default Currency**: Payment currency
 - **Display Language**: Form language
 
-### Step 3: Review & Continue
+### Step 3: Order Form Creation Page
+
+![Order Form Creation Page](../../assets/screenshots/FLIK%20Checkout%20-%20Order%20Form%20Page/Order%20Form%20Creation%20Page.png)
+
 1. Review entered information
 2. Click **Selanjutnya** or **Next** button
-3. Proceed to Order Form Creation Page
-
-**Screenshot Reference**: `/assets/screenshots/FLIK Checkout - Order Form Page/Order Form Creation Page.png`
+3. You'll see the main form editor above where you can:
+   - Add and customize form fields
+   - Configure form layout
+   - Set up payment options
+   - Preview and publish form
 
 ## Order Form Creation Page
 

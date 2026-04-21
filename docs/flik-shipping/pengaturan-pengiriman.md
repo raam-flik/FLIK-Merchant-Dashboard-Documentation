@@ -19,7 +19,7 @@ Pengaturan Pengiriman (Shipping Settings) allows you to:
 2. Select **Pengaturan Pengiriman** or **Shipping Settings**
 3. Access the settings page
 
-**Screenshot Reference**: `/assets/screenshots/FLIK Shipping - Pengaturan Pengiriman/Pengaturan Pengiriman.png`
+![Pengaturan Pengiriman](../../assets/screenshots/FLIK%20Shipping%20-%20Pengaturan%20Pengiriman/Pengaturan%20Pengiriman.png)
 
 ## Carrier Configuration
 

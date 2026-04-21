@@ -16,11 +16,12 @@ Pengiriman (Shipping) allows you to:
 ## Pengiriman List Page
 
 ### Accessing Pengiriman
+
+![List Pengiriman Page](../../assets/screenshots/FLIK%20Shipping%20-%20Pengiriman%20Page/List%20Pengiriman%20Page.png)
+
 1. Navigate to **FLIK Shipping** from main menu
 2. Select **Pengiriman** or **Shipping**
-3. View list of all shipments
-
-**Screenshot Reference**: `/assets/screenshots/FLIK Shipping - Pengiriman Page/List pengiriman page.png`
+3. View list of all shipments as shown above
 
 ### List Features
 - **View all shipments** from your warehouse
@@ -44,10 +45,12 @@ Pengiriman (Shipping) allows you to:
 ## Creating a Shipment
 
 ### Step 1: Start Shipment Creation
-1. Click **Buat Pengiriman** or **Create Shipment** button
-2. Pop-up window opens: **Create Pengiriman Step 1**
 
-**Screenshot Reference**: `/assets/screenshots/FLIK Shipping - Pengiriman Page/Create Pengiriman Step 1.png`
+![Create Pengiriman Step 1](../../assets/screenshots/FLIK%20Shipping%20-%20Pengiriman%20Page/Create%20Pengiriman%20Step%201.png)
+
+1. Click **Buat Pengiriman** or **Create Shipment** button
+2. Pop-up window opens as shown above
+3. Select warehouse and shipment type
 
 ### Step 1: Select Warehouse
 In the first step, select:
@@ -76,9 +79,9 @@ In the first step, select:
 
 ### Step 2: Order Details (Manual)
 
-**Screenshot Reference**: `/assets/screenshots/FLIK Shipping - Pengiriman Page/Create Pengiriman Step 2.png`
+![Create Pengiriman Step 2](../../assets/screenshots/FLIK%20Shipping%20-%20Pengiriman%20Page/Create%20Pengiriman%20Step%202.png)
 
-Fill in order and shipping information:
+Fill in order and shipping information using the form shown above:
 
 #### Order Information
 - **Order Number/ID**: Reference order
@@ -110,9 +113,9 @@ Fill in order and shipping information:
 
 ### Step 2b: Bulk Upload (For Bulk Orders)
 
-**Screenshot Reference**: `/assets/screenshots/FLIK Shipping - Pengiriman Page/Create Pengiriman Step 2b 1.png` & `Step 2b 2.png`
+![Create Pengiriman Step 2b](../../assets/screenshots/FLIK%20Shipping%20-%20Pengiriman%20Page/Create%20Pengiriman%20Step%202b%201.png)
 
-For bulk shipments:
+For bulk shipments, use the upload interface shown above:
 
 #### CSV File Format
 ```
@@ -130,9 +133,9 @@ ORD-002 | Jane Smith | jane@email.com | 085678901 | Jl Side 2 | Bandung | Jawa B
 
 ### Step 3: Select Shipping Carrier
 
-**Screenshot Reference**: `/assets/screenshots/FLIK Shipping - Pengiriman Page/Create Pengiriman Step 3.png`
+![Create Pengiriman Step 3](../../assets/screenshots/FLIK%20Shipping%20-%20Pengiriman%20Page/Create%20Pengiriman%20Step%203.png)
 
-Choose shipping options:
+Use the interface above to choose shipping options:
 
 #### Available Carriers
 - JNE
@@ -155,13 +158,14 @@ Choose shipping options:
 - **Carrier**: Selected courier
 
 #### Cost Details
-Click **Detail** or **Rincian** to see:
+
+![Biaya Detail Pengiriman Pop up](../../assets/screenshots/FLIK%20Shipping%20-%20Pengiriman%20Page/Biaya%20Detail%20Pengiriman%20Pop%20up.png)
+
+Click **Detail** or **Rincian** to see the cost breakdown shown above:
 - **Base Rate**: Carrier rate
 - **Distance Surcharge**: If applicable
 - **Weight Surcharge**: If applicable
 - **Total Cost**: Final shipping cost
-
-**Screenshot Reference**: `/assets/screenshots/FLIK Shipping - Pengiriman Page/Biaya Detail Pengiriman Pop up.png`
 
 1. Select carrier and method
 2. Review shipping cost
@@ -170,9 +174,9 @@ Click **Detail** or **Rincian** to see:
 
 ### Step 4a: Schedule Pickup Time
 
-**Screenshot Reference**: `/assets/screenshots/FLIK Shipping - Pengiriman Page/Create Pengiriman Step 4a.png`
+![Create Pengiriman Step 4a](../../assets/screenshots/FLIK%20Shipping%20-%20Pengiriman%20Page/Create%20Pengiriman%20Step%204a.png)
 
-Schedule courier pickup:
+Use the interface shown above to schedule courier pickup:
 
 #### Pickup Time Selection
 Pop-up shows: **Pilih Waktu Pick Up** (Choose Pickup Time)
@@ -193,9 +197,9 @@ Pop-up shows: **Pilih Waktu Pick Up** (Choose Pickup Time)
 
 ### Step 4b: Pickup Confirmation
 
-**Screenshot Reference**: `/assets/screenshots/FLIK Shipping - Pengiriman Page/Create Pengiriman Step 4b.png`
+![Create Pengiriman Step 4b](../../assets/screenshots/FLIK%20Shipping%20-%20Pengiriman%20Page/Create%20Pengiriman%20Step%204b.png)
 
-Review pickup details:
+Review pickup details shown above:
 
 - **Pickup Date**: Selected date
 - **Pickup Time**: Selected time window
@@ -209,9 +213,9 @@ Review pickup details:
 
 ### Step 5: Shipment Summary
 
-**Screenshot Reference**: `/assets/screenshots/FLIK Shipping - Pengiriman Page/Create Pengiriman Step 5.png`
+![Create Pengiriman Step 5](../../assets/screenshots/FLIK%20Shipping%20-%20Pengiriman%20Page/Create%20Pengiriman%20Step%205.png)
 
-Review complete shipment information:
+Review complete shipment information displayed above:
 
 #### Summary Information
 - **Order Details**: Customer and order info
@@ -229,7 +233,7 @@ Review complete shipment information:
 
 ### Step 6: Final Confirmation
 
-**Screenshot Reference**: `/assets/screenshots/FLIK Shipping - Pengiriman Page/Create Pengiriman Step 6.png`
+![Create Pengiriman Step 6](../../assets/screenshots/FLIK%20Shipping%20-%20Pengiriman%20Page/Create%20Pengiriman%20Step%206.png)
 
 Complete shipment creation:
 
@@ -323,7 +327,7 @@ Customize notification messages:
 
 Configure shipping preferences:
 
-**Screenshot Reference**: `/assets/screenshots/FLIK Shipping - Pengaturan Pengiriman/Pengaturan Pengiriman.png`
+![Pengaturan Pengiriman](../../assets/screenshots/FLIK%20Shipping%20-%20Pengaturan%20Pengiriman/Pengaturan%20Pengiriman.png)
 
 - **Default Carrier**: Primary courier
 - **Pickup Schedule**: Regular pickup times
@@ -335,7 +339,7 @@ Configure shipping preferences:
 
 View shipping analytics:
 
-**Screenshot Reference**: `/assets/screenshots/Laporan & Analisis FLIK Shipping/Laporan & Analisis FLIK Shipping.png`
+![Laporan & Analisis FLIK Shipping](../../assets/screenshots/Laporan%20&%20Analisis%20FLIK%20Shipping/Laporan%20&%20Analisis%20FLIK%20Shipping.png)
 
 - **Total Shipments**: Volume metrics
 - **Delivery Success Rate**: On-time delivery %

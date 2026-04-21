@@ -8,7 +8,7 @@ Leads Management allows you to manage sales opportunities and track conversion.
 
 ## Leads List Page
 
-**Screenshot Reference**: `/assets/screenshots/Marketing - Leads Management/Leads Management Page.png`
+![Leads Management Page](../../assets/screenshots/Marketing%20-%20Leads%20Management/Leads%20Management%20Page.png)
 
 View all leads with status, scoring, and interaction history.
 

@@ -24,11 +24,12 @@ Multiple Warehouse Shipping allows you to:
 ## Multiple Warehouse List Page
 
 ### Accessing Multiple Warehouse Shipping
+
+![List of Pengiriman From Multiple Warehouse](../../assets/screenshots/FLIK%20Shipping%20-%20Multiple%20Warehouse/List%20of%20Pengiriman%20From%20Multiple%20Warehouse.png)
+
 1. Navigate to **FLIK Shipping** from main menu
 2. Select **Multiple Warehouse** or **Pengiriman Multi Gudang**
-3. View list of shipments
-
-**Screenshot Reference**: `/assets/screenshots/FLIK Shipping - Multiple Warehouse/List of Pengiriman From Multiple Warehouse.png`
+3. View list of shipments as shown above
 
 ### List Features
 - **View all shipments** from all warehouses
@@ -46,9 +47,9 @@ Multiple Warehouse Shipping allows you to:
 
 ### Step 2: Choose Carrier (Pilih ekspedisi)
 
-**Screenshot Reference**: `/assets/screenshots/FLIK Shipping - Multiple Warehouse/Pilih ekspedisi.png`
+![Pilih ekspedisi](../../assets/screenshots/FLIK%20Shipping%20-%20Multiple%20Warehouse/Pilih%20ekspedisi.png)
 
-Select shipping carrier and method:
+Use the interface shown above to select shipping carrier and method:
 
 #### Carrier Selection
 Available couriers:
@@ -78,9 +79,9 @@ Actions:
 
 ### Step 3: Pick Up Time (Pick up time)
 
-**Screenshot Reference**: `/assets/screenshots/FLIK Shipping - Multiple Warehouse/Pick Up Time.png`
+![Pick Up Time](../../assets/screenshots/FLIK%20Shipping%20-%20Multiple%20Warehouse/Pick%20Up%20Time.png)
 
-Schedule the courier pickup:
+Use the interface shown above to schedule the courier pickup:
 
 #### Pickup Schedule
 - **Pickup Date**: Select date
@@ -103,9 +104,9 @@ Actions:
 
 ### Step 4: Upload Data (Upload Data)
 
-**Screenshot Reference**: `/assets/screenshots/FLIK Shipping - Multiple Warehouse/Upload Data.png`
+![Upload Data](../../assets/screenshots/FLIK%20Shipping%20-%20Multiple%20Warehouse/Upload%20Data.png)
 
-Upload shipment information:
+Use the form shown above to upload shipment information:
 
 #### Upload Methods
 1. **CSV/Excel Upload**: Bulk upload data
@@ -133,9 +134,9 @@ Actions:
 
 ### Step 5: Loading State (Loading State)
 
-**Screenshot Reference**: `/assets/screenshots/FLIK Shipping - Multiple Warehouse/Loading State.png`
+![Loading State](../../assets/screenshots/FLIK%20Shipping%20-%20Multiple%20Warehouse/Loading%20State.png)
 
-System processes shipment data:
+The system processes shipment data as shown above:
 
 #### Processing Information
 - **Processing Status**: Current progress
@@ -159,11 +160,9 @@ Actions:
 
 ### Step 6: Summary 1 (Ringkasan 1)
 
-First summary page showing:
+![Ringkasan 1](../../assets/screenshots/FLIK%20Shipping%20-%20Multiple%20Warehouse/Ringkasan%201.png)
 
-**Screenshot Reference**: `/assets/screenshots/FLIK Shipping - Multiple Warehouse/Ringkasan 1.png`
-
-#### Summary Content
+The first summary page shown above displays:
 - **Total Shipments**: Number of orders
 - **Total Cost**: Combined shipping cost
 - **Warehouses Involved**: Locations used
@@ -184,11 +183,9 @@ Actions:
 
 ### Step 7: Summary 2 (Ringkasan 2)
 
-Detailed shipment breakdown:
+![Ringkasan 2](../../assets/screenshots/FLIK%20Shipping%20-%20Multiple%20Warehouse/Ringkasan%202.png)
 
-**Screenshot Reference**: `/assets/screenshots/FLIK Shipping - Multiple Warehouse/Ringkasan 2.png`
-
-#### Details Shown
+Detailed shipment breakdown shown in the interface above includes:
 - **Shipment List**: Each order details
 - **Tracking Numbers**: For each shipment
 - **Destinations**: Delivery addresses
@@ -211,11 +208,9 @@ Actions:
 
 ### Step 8: Summary 3 (Ringkasan 3)
 
-Final confirmation before creation:
+![Ringkasan 3](../../assets/screenshots/FLIK%20Shipping%20-%20Multiple%20Warehouse/Ringkasan%203.png)
 
-**Screenshot Reference**: `/assets/screenshots/FLIK Shipping - Multiple Warehouse/Ringkasan 3.png`
-
-#### Final Review
+Final confirmation before creation shown above contains:
 - **Total Orders**: Final count
 - **Total Cost**: Final amount
 - **Pickup Schedule**: Confirmed pickup times

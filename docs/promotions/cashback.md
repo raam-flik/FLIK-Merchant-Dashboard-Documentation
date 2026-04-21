@@ -8,13 +8,13 @@ Cashback Programs allow you to offer monetary rewards to customers for purchases
 
 ## Cashback List Page
 
-**Screenshot Reference**: `/assets/screenshots/Promosi - Cashback/List of Cashback.png`
+![List of Cashback](../../assets/screenshots/Promosi%20-%20Cashback/List%20of%20Cashback.png)
 
 View all cashback programs with current status and reward statistics.
 
 ### Creating Cashback Rule
 
-**Screenshot Reference**: `/assets/screenshots/Promosi - Cashback/Create New Cashback Rule.png`
+![Create New Cashback Rule](../../assets/screenshots/Promosi%20-%20Cashback/Create%20New%20Cashback%20Rule.png)
 
 #### Program Details
 - **Program Name**: Name of cashback program

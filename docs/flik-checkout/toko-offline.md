@@ -15,11 +15,12 @@ Toko Offline (Offline Store) is the POS system that allows you to:
 ## Toko Offline List Page
 
 ### Accessing Toko Offline
+
+![List Toko Offline Page](../../assets/screenshots/FLIK%20Checkout%20-%20Toko%20Offline%20Page/List%20Toko%20Offline%20Page.png)
+
 1. Navigate to **FLIK Checkout** from main menu
 2. Select **Toko Offline** or **Toko Luring**
-3. View list of all offline stores
-
-**Screenshot Reference**: `/assets/screenshots/FLIK Checkout - Toko Offline Page/List Toko Offline Page.png`
+3. View list of all offline stores as shown above
 
 ### List Features
 - **View all stores** in your organization
@@ -76,9 +77,7 @@ Enter the following details:
 
 ### Cashier List Page
 
-After creating a store, manage cashiers:
-
-**Screenshot Reference**: `/assets/screenshots/FLIK Checkout - Toko Offline Page/List Toko Offline Page.png`
+After creating a store, manage cashiers. Access the cashier management from the store details.
 
 ### View Cashiers
 1. Click store from list
@@ -89,9 +88,9 @@ After creating a store, manage cashiers:
 
 ### Adding a Cashier
 
-Click **Tambah Kasir** or **Add Cashier**:
+![Tambah Kasir Toko Offline Page](../../assets/screenshots/FLIK%20Checkout%20-%20Toko%20Offline%20Page/Tambah%20Kasir%20Toko%20Offline%20Page.png)
 
-**Screenshot Reference**: `/assets/screenshots/FLIK Checkout - Toko Offline Page/Tambah Kasir Toko Offline Page.png`
+Click **Tambah Kasir** or **Add Cashier** and fill in the form shown above:
 
 #### Cashier Details Form
 1. **Cashier Name**: Full name of cashier

@@ -14,11 +14,12 @@ The Invoice Management system allows you to:
 ## Invoice List Page
 
 ### Accessing the Invoice List
+
+![List Invoice Page](../../assets/screenshots/FLIK%20Checkout%20-%20Invoice%20Page/List%20Invoice%20Page.png)
+
 1. Navigate to **FLIK Checkout** from main menu
 2. Select **Invoice** or **Faktur**
-3. You'll see the list of all invoices
-
-**Screenshot Reference**: `/assets/screenshots/FLIK Checkout - Invoice Page/List Invoice Page.png`
+3. You'll see the list of all invoices displayed above
 
 ### List Features
 - **View all invoices** created in your store
@@ -38,10 +39,12 @@ The Invoice Management system allows you to:
 ## Creating an Invoice
 
 ### Step 1: Start Invoice Creation
-1. Click **Buat Invoice** or **Create Invoice** button
-2. You'll be directed to the Create Invoice Page
 
-**Screenshot Reference**: `/assets/screenshots/FLIK Checkout - Invoice Page/Create Invoice Page.png`
+![Create Invoice Page](../../assets/screenshots/FLIK%20Checkout%20-%20Invoice%20Page/Create%20Invoice%20Page.png)
+
+1. Click **Buat Invoice** or **Create Invoice** button
+2. You'll be directed to the Create Invoice Page shown above
+3. Fill in all the invoice details as described in the next sections
 
 ### Step 2: Fill Invoice Details
 
@@ -68,13 +71,13 @@ The Invoice Management system allows you to:
 
 ### Step 3: Add Products
 
-Click **Tambah Produk Custom** or **Add Custom Product** to add items.
+### Step 3: Add Products
 
-**Screenshot Reference**: `/assets/screenshots/FLIK Checkout - Invoice Page/Pop Up Tambah Produk Invoice.png`
+![Pop Up Tambah Produk Invoice](../../assets/screenshots/FLIK%20Checkout%20-%20Invoice%20Page/Pop%20Up%20Tambah%20Produk%20Invoice.png)
 
 #### Adding Products
 1. Click **Tambah Produk Custom** button
-2. Pop-up window opens
+2. The pop-up window shown above opens
 3. Fill in product details:
    - **Product Name**: Item name
    - **Description**: Item description
@@ -236,7 +239,7 @@ The system automatically calculates:
 4. Select report type
 5. Download or view report
 
-**Screenshot Reference**: `/assets/screenshots/Laporan & Analisis - FLIK Checkout/Laporan & Analisis FLIK Checkout.png`
+![Laporan & Analisis FLIK Checkout](../../assets/screenshots/Laporan%20&%20Analisis%20-%20FLIK%20Checkout/Laporan%20&%20Analisis%20FLIK%20Checkout.png)
 
 ## Best Practices
 

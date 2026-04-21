@@ -8,7 +8,7 @@ Checkout Reports provides detailed insights into your sales and payment processi
 
 ## Checkout Analytics Dashboard
 
-**Screenshot Reference**: `/assets/screenshots/Laporan & Analisis - FLIK Checkout/Laporan & Analisis FLIK Checkout.png`
+![Laporan & Analisis FLIK Checkout](../../assets/screenshots/Laporan%20&%20Analisis%20-%20FLIK%20Checkout/Laporan%20&%20Analisis%20FLIK%20Checkout.png)
 
 ### Key Metrics
 

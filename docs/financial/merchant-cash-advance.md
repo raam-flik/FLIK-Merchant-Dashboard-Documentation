@@ -8,7 +8,7 @@ Merchant Cash Advance allows eligible merchants to borrow funds for business gro
 
 ## MCA List Page
 
-**Screenshot Reference**: `/assets/screenshots/Merchant Cash Advance/List of Merchant Cash Advance.png`
+![List of Merchant Cash Advance](../../assets/screenshots/Merchant%20Cash%20Advance/List%20of%20Merchant%20Cash%20Advance.png)
 
 View all cash advance applications and funding status.
 
@@ -28,7 +28,7 @@ Statuses shown:
 
 ### Step 1-9 Process
 
-**Screenshot Reference**: `/assets/screenshots/Merchant Cash Advance/1.png` through `9.png`
+![1](../../assets/screenshots/Merchant%20Cash%20Advance/1.png) through `9.png`
 
 Complete multi-step application process:
 
@@ -85,7 +85,7 @@ Upload documents:
 
 ## Viewing Details
 
-**Screenshot Reference**: `/assets/screenshots/Merchant Cash Advance/Detail of Merchant Cash Advance.png`
+![Detail of Merchant Cash Advance](../../assets/screenshots/Merchant%20Cash%20Advance/Detail%20of%20Merchant%20Cash%20Advance.png)
 
 Access detailed funding information:
 - **Loan Details**: Amount and terms

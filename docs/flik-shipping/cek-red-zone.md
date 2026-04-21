@@ -37,7 +37,7 @@ A **Red Zone** is an area where:
 2. Select **Cek Red Zone** or **Check Red Zone**
 3. Access the checking tool
 
-**Screenshot Reference**: `/assets/screenshots/FLIK Shipping - Cek Red Zone/Check Red Zone.png`
+![Check Red Zone](../../assets/screenshots/FLIK%20Shipping%20-%20Cek%20Red%20Zone/Check%20Red%20Zone.png)
 
 ### Method 2: During Shipment Creation
 1. Create shipment
@@ -54,9 +54,9 @@ A **Red Zone** is an area where:
 
 ### Check Red Zone - Step 1
 
-**Screenshot Reference**: `/assets/screenshots/FLIK Shipping - Cek Red Zone/Check Red Zone-1.png`
+![Check Red Zone Step 1](../../assets/screenshots/FLIK%20Shipping%20-%20Cek%20Red%20Zone/Check%20Red%20Zone-1.png)
 
-Initial information entry:
+Use the form shown above for initial information entry:
 
 #### Address Input
 - **Street Address**: Full delivery address
@@ -74,9 +74,9 @@ Initial information entry:
 
 ### Check Red Zone - Step 2
 
-**Screenshot Reference**: `/assets/screenshots/FLIK Shipping - Cek Red Zone/Check Red Zone-2.png`
+![Check Red Zone Step 2](../../assets/screenshots/FLIK%20Shipping%20-%20Cek%20Red%20Zone/Check%20Red%20Zone-2.png)
 
-Processing and validation:
+The system shows the processing and validation screen above:
 
 #### Address Validation
 - **Address Format**: Verified
@@ -94,9 +94,9 @@ Processing and validation:
 
 ### Check Red Zone - Step 3 & Results
 
-**Screenshot Reference**: `/assets/screenshots/FLIK Shipping - Cek Red Zone/Check Red Zone-3.png`
+![Check Red Zone Results](../../assets/screenshots/FLIK%20Shipping%20-%20Cek%20Red%20Zone/Check%20Red%20Zone-3.png)
 
-Detailed results display:
+The results display above shows detailed red zone information:
 
 ## Red Zone Status Results
 

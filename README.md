@@ -13,11 +13,29 @@ The FLIK Merchant Dashboard is a comprehensive platform designed to help merchan
 ## Core Modules
 
 ### 1. **Authentication & Access**
+Entry point for merchants to register or login into the dashboard.
+
 - [Login & Registration](./docs/authentication.md)
 - Account creation and password management
 - User authentication flow
+- Password recovery
 
-### 2. **FLIK Checkout**
+### 2. **Dashboard & Settings**
+Main dashboard and general settings for store management.
+
+- [Dashboard Overview](./docs/dashboard.md)
+- [Profile Management](./docs/profile.md)
+- [General Settings](./docs/general-settings.md)
+
+### 3. **Saldo (Account Balance)**
+Manage account balance and financial transactions.
+
+- [Saldo Management](./docs/financial/saldo.md)
+- View transaction history
+- Manage payment methods
+- Purchase service credits
+
+### 4. **FLIK Checkout**
 Core payment and order management features for online transactions.
 
 - [Invoice Management](./docs/flik-checkout/invoice.md)
@@ -25,43 +43,68 @@ Core payment and order management features for online transactions.
 - [Toko Offline (Point of Sale)](./docs/flik-checkout/toko-offline.md)
 - [Checkout Personalization](./docs/flik-checkout/checkout-personalization.md)
 
-### 3. **FLIK Shipping**
+### 5. **FLIK Shipping**
 Comprehensive logistics and shipping management system.
 
-- [Pengiriman (Shipping Management)](./docs/flik-shipping/pengiriman.md)
+- [Pengiriman (Single Warehouse Shipping)](./docs/flik-shipping/pengiriman.md)
 - [Multiple Warehouse Shipping](./docs/flik-shipping/multiple-warehouse.md)
-- [Shipment Tracking](./docs/flik-shipping/lacak-pengiriman.md)
-- [Red Zone Checking](./docs/flik-shipping/cek-red-zone.md)
-- [Shipping Settings](./docs/flik-shipping/pengaturan-pengiriman.md)
+- [Lacak Pengiriman (Shipment Tracking)](./docs/flik-shipping/lacak-pengiriman.md)
+- [Cek Red Zone (Check Red Zone)](./docs/flik-shipping/cek-red-zone.md)
+- [Pengaturan Pengiriman (Shipping Settings)](./docs/flik-shipping/pengaturan-pengiriman.md)
 
-### 4. **Promotions & Marketing**
-Tools to create and manage marketing campaigns and promotional offers.
+### 6. **Pendanaan (Funding)**
+Business funding and financing options.
 
-- [Voucher Management](./docs/promotions/voucher.md)
-- [Cashback Programs](./docs/promotions/cashback.md)
-- [QR Campaign](./docs/promotions/qr-campaign.md)
-- [Post Purchase Offer](./docs/promotions/post-purchase-offer.md)
+- [Merchant Cash Advance](./docs/financial/merchant-cash-advance.md)
+  - Apply for business funding
+  - Track funding status
+  - Manage repayment
+
+### 7. **Marketing**
+Customer relationship and marketing management tools.
+
 - [Customer Management](./docs/marketing/customer.md)
+  - Manage customer database
+  - Track purchase history
+  - Customer segmentation
 - [Leads Management](./docs/marketing/leads-management.md)
+  - Capture and qualify leads
+  - Sales pipeline tracking
+  - Lead scoring
 
-### 5. **Analytics & Reporting**
+### 8. **Promosi (Promotions)**
+Create and manage promotional campaigns to drive sales.
+
+- [Voucher](./docs/promotions/voucher.md)
+  - Create discount codes
+  - Track redemption
+  - Campaign analytics
+- [Post Purchase Offer](./docs/promotions/post-purchase-offer.md)
+  - Encourage repeat purchases
+  - Time-limited offers
+  - Conversion tracking
+- [Cashback](./docs/promotions/cashback.md)
+  - Loyalty reward programs
+  - Set reward rates
+  - Track payouts
+- [QR Campaign](./docs/promotions/qr-campaign.md)
+  - Create QR codes
+  - Track engagement
+  - Measure conversions
+
+### 9. **Analytics & Reporting**
 Performance tracking and business intelligence.
 
 - [FLIK Checkout Reports](./docs/analytics/checkout-reports.md)
+  - Sales analytics
+  - Order tracking
+  - Payment metrics
+  - Revenue analysis
 - [FLIK Shipping Reports](./docs/analytics/shipping-reports.md)
-
-### 6. **Financial Management**
-Payment and fund management tools.
-
-- [Merchant Cash Advance](./docs/financial/merchant-cash-advance.md)
-- [Saldo (Balance) Management](./docs/financial/saldo.md)
-
-### 7. **Dashboard & Settings**
-Main dashboard and general settings.
-
-- [Dashboard Overview](./docs/dashboard.md)
-- [Profile Management](./docs/profile.md)
-- [General Settings](./docs/general-settings.md)
+  - Shipment metrics
+  - Carrier performance
+  - Delivery success rates
+  - Cost analysis
 
 ## Quick Start Guide
 
@@ -117,35 +160,41 @@ Main dashboard and general settings.
 
 ```
 /docs
-├── authentication.md              # Login, registration, password reset
-├── dashboard.md                   # Dashboard overview
-├── profile.md                     # Profile management
-├── general-settings.md            # General settings and configurations
+├── authentication.md                  # 1. Login & Registration
+├── dashboard.md                       # 2. Dashboard Overview
+├── profile.md                         # 2. Profile Management
+├── general-settings.md                # 2. General Settings
+├── financial/
+│   └── saldo.md                      # 3. Account Balance Management
 ├── flik-checkout/
-│   ├── invoice.md                # Invoice creation and management
-│   ├── order-form.md             # Order form builder
-│   ├── toko-offline.md           # Point of sale system
-│   └── checkout-personalization.md
+│   ├── README.md                     # 4. FLIK Checkout Overview
+│   ├── invoice.md                    # 4. Invoice Management
+│   ├── order-form.md                 # 4. Order Form Builder
+│   ├── toko-offline.md               # 4. POS System
+│   └── checkout-personalization.md   # 4. Checkout Customization
 ├── flik-shipping/
-│   ├── pengiriman.md             # Shipping management
-│   ├── multiple-warehouse.md      # Multi-warehouse shipping
-│   ├── lacak-pengiriman.md       # Shipment tracking
-│   ├── cek-red-zone.md           # Red zone checking
-│   └── pengaturan-pengiriman.md  # Shipping settings
-├── promotions/
-│   ├── voucher.md                # Voucher campaigns
-│   ├── cashback.md               # Cashback programs
-│   ├── qr-campaign.md            # QR campaigns
-│   └── post-purchase-offer.md    # Post-purchase offers
+│   ├── README.md                     # 5. FLIK Shipping Overview
+│   ├── pengiriman.md                 # 5. Single Warehouse Shipping
+│   ├── multiple-warehouse.md          # 5. Multi-warehouse Shipping
+│   ├── lacak-pengiriman.md           # 5. Shipment Tracking
+│   ├── cek-red-zone.md               # 5. Red Zone Checking
+│   └── pengaturan-pengiriman.md      # 5. Shipping Settings
+├── financial/
+│   └── merchant-cash-advance.md      # 6. Pendanaan / MCA
 ├── marketing/
-│   ├── customer.md               # Customer management
-│   └── leads-management.md       # Leads management
-├── analytics/
-│   ├── checkout-reports.md       # Checkout analytics
-│   └── shipping-reports.md       # Shipping analytics
-└── financial/
-    ├── merchant-cash-advance.md  # MCA application
-    └── saldo.md                  # Balance management
+│   ├── README.md                     # 7. Marketing Overview
+│   ├── customer.md                   # 7. Customer Management
+│   └── leads-management.md           # 7. Leads Management
+├── promotions/
+│   ├── README.md                     # 8. Promotions Overview
+│   ├── voucher.md                    # 8. Voucher Campaigns
+│   ├── post-purchase-offer.md        # 8. Post-Purchase Offers
+│   ├── cashback.md                   # 8. Cashback Programs
+│   └── qr-campaign.md                # 8. QR Campaigns
+└── analytics/
+    ├── README.md                     # 9. Analytics Overview
+    ├── checkout-reports.md           # 9. Checkout Reports
+    └── shipping-reports.md           # 9. Shipping Reports
 ```
 
 ## Screenshots

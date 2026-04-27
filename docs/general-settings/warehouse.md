@@ -28,40 +28,6 @@ Manage warehouse locations and their configurations from the Warehouse settings 
 - **HP. PIC** (Phone - PIC): Contact phone number of person in charge
 - **Action**: Edit button for each warehouse
 
-### Warehouse Entries Shown
-Example warehouses displayed:
-1. **Sukadiri Warehouse**
-   - Kode: Sukadiri Warehouse
-   - Nama: FLIK - GoWork
-   - Kota: Kabupaten Tangerang
-   - HP. PIC: +62857378913388
-   - Action: Ubah (Edit) button
-
-2. **CICENDO**
-   - Kode: CICENDO
-   - Nama: Cicendo Test Warehouse
-   - Kota: Kota Bandung
-   - HP. PIC: +628120000001
-   - Action: Ubah (Edit) button
-
-3. **01**
-   - Kode: 01
-   - Nama: CIBIS
-   - Kota: Kota Jakarta Selatan
-   - HP. PIC: +6285780056653
-   - Action: Ubah (Edit) button
-
-4. **674e8392c7e08b0a621eda32**
-   - Kode: 674e8392c7e08b0a621eda32
-   - Nama: Benhil WH
-   - Kota: Kota Jakarta Pusat
-   - HP. PIC: +6289630381494
-   - Action: Ubah (Edit) button
-
-### Pagination
-- Shows: "Showing 1 - 4 of 4"
-- Navigation: Prev, page numbers, Next buttons
-
 ## Creating a Warehouse
 
 ### Step 1: Click Add Warehouse

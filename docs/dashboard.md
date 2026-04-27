@@ -2,6 +2,8 @@
 
 The Dashboard is your central hub to monitor business performance and access all features of the FLIK Merchant Platform.
 
+![Dashboard Page](../assets/screenshots/Dashboard%20Page/Dashboard%20Page.png)
+
 ## Dashboard Layout
 
 ### Top Navigation Bar
@@ -20,61 +22,78 @@ Collapsible menu with quick access to:
 - **Dashboard**: Main dashboard view
 - **Saldo**: Account balance and transactions
 - **FLIK Checkout** (expandable): Invoice, Order Form, Toko Offline, Personalization
-- **FLIK Shipping** (expandable): Pengiriman, Multiple Warehouse, Lacak Pengiriman, etc.
-- **Pendanaan** (Funding): Merchant Cash Advance and funding options
+- **FLIK Shipping** (expandable): Pengiriman, Multiple Warehouse, Lacak Pengiriman, Cek Red Zone, Pengaturan Pengiriman
+- **Pendanaan** (Funding): Merchant Cash Advance and funding options (marked as "Baru" - New)
 - **Marketing** (expandable): Customer management and leads
 - **Promosi** (Promotions): Voucher, Cashback, QR Campaign, Post Purchase Offer
 - **Laporan & Analisis** (Reports): Analytics and reporting
 
 ### Main Dashboard Display
 
-The dashboard shows key metrics and information:
+The dashboard displays key metrics and information organized in sections.
 
-#### Top Cards Section
-- **Kredit** (Credits): Shows current credit balance (e.g., "Rp-617")
-- **Total Penghapusan** (Total Removed/Processed): Revenue/value metric (e.g., "Rp823.748")
-- **Kamu Hemat** (You Saved): Savings amount (e.g., "Rp2.450")
+## Key Metrics Section
 
-#### Quick Access Cards Section
-Shows business metrics organized in cards:
-- **Checkout Section**
-  - Order Selesai (Completed Orders): Count
-  - Terkirim (Shipped): Count
-  - Dalam Pengiriman (In Transit): Count
-  - Sudah Dibayar (Paid): Count
-  - Tungggu Pembayaran (Awaiting Payment): Count
-  - Order Ditolak (Rejected Orders): Count
+### Top Three Metric Cards
 
-- **Additional Metrics**
-  - Selesai (Completed)
-  - Sudah Dibayar (Paid)
-  - Tungggu Pembayaran (Awaiting Payment)
-  - Dilihat (Viewed)
-  - Dibuat (Created)
+#### 1. Kredit (Credit)
+- **Label**: Kredit (with credit card icon)
+- **Value**: Rp-617
+- Shows current credit balance in account
 
-- **Pengiriman Section** (Shipping)
-  - Pengiriman Selesai (Completed Shipments)
-  - Dikembalikan (Returned)
-  - Tungggu Pencairan COD (Awaiting COD Funds)
-  - Pengembalian Diproses (Processing Returns)
-  - Dalam Pengiriman (In Transit)
-  - Tungggu Penjemputan (Awaiting Pickup)
+#### 2. Total Penghasilan (Total Income)
+- **Label**: Total Penghasilan (with invoice/document icon)
+- **Value**: Rp823.748
+- Shows total revenue generated
 
-- **Pengiriman Bermasalah** (Problem Shipments)
-  - No update 48 jam (No update 48 hours)
-  - No update 4 hari (No update 4 days)
-  - Dibatalkan (Cancelled)
+#### 3. Kamu Hemat (You Saved)
+- **Label**: Kamu Hemat (with piggy bank icon and info tooltip)
+- **Value**: Rp2.450
+- Shows savings amount
 
-#### Quick Action Buttons
-Access buttons for common tasks (shown in settings/help area):
-- Invoice online - "Buat invoice dengan pilihan metode pembayaran" (+ Invoice)
-- Kirim paket - "Banyak pilihan kurir dengan berbagai layanan" (+ Pengiriman)
-- Order form - "Buat landing page dan formulir untuk penjualan online" (+ Order Form)
-- Tambah promo - "Buat promo ongkir atau promo produk terbaru" (+ Promo)
-- Top up saldo - "Tambahkan saldo untuk buat pengiriman" (+ Saldo)
-- Lacak pengiriman - "Cek status paket satuan atau dalam jumlah banyak" (Cek)
+## Dashboard Sections
 
-## Key Features
+### Checkout Section
+Displays order metrics with icon labeled "Checkout":
+
+#### Order Metrics
+- **Order Selesai** (Completed Orders): 71
+- **Terkirim** (Shipped): 0
+- **Dalam Pengiriman** (In Transit): 0
+- **Sudah Dibayar** (Paid): 17
+- **Tungggu Pembayaran** (Awaiting Payment): 0
+- **Order Ditolak** (Rejected Orders): 118
+
+### Invoice Section
+Displays invoice metrics with icon labeled "Invoice":
+
+#### Invoice Metrics
+- **Selesai** (Completed): 9
+- **Sudah Dibayar** (Paid): 0
+- **Tungggu Pembayaran** (Awaiting Payment): 0
+- **Dilihat** (Viewed): 0
+- **Dibuat** (Created): 0
+
+### Pengiriman (Shipping) Section
+Displays shipping metrics with icon labeled "Pengiriman":
+
+#### Shipping Metrics
+- **Pengiriman Selesai** (Completed Shipments): 3
+- **Dikembalikan** (Returned): 0
+- **Tungggu Pencairan COD** (Awaiting COD Settlement): 0
+- **Pengembalian Diproses** (Processing Returns): 0
+- **Dalam Pengiriman** (In Transit): 0
+- **Tungggu Penjemputan** (Awaiting Pickup): 5
+
+### Pengiriman Bermasalah (Problem Shipments) Section
+Displays problem shipment tracking with warning icon:
+
+#### Problem Shipment Metrics
+- **No update 48 jam** (No update 48 hours): 0
+- **No update 4 hari** (No update 4 days): 5
+- **Dibatalkan** (Cancelled): 2
+
+## Features
 
 ### Beli Kredit (Buy Credit)
 Button in top navigation to purchase credits for:
@@ -107,32 +126,50 @@ Dropdown menu to switch between stores or accounts:
 
 ## Dashboard Metrics Explained
 
-### Order Metrics
-- **Order Selesai** (Completed Orders): Total orders that have been processed
-- **Terkirim** (Shipped): Orders that have been dispatched
-- **Dalam Pengiriman** (In Transit): Orders currently on the way
-- **Sudah Dibayar** (Paid): Orders with payment received
-- **Tungggu Pembayaran** (Awaiting Payment): Unpaid orders pending payment
-- **Order Ditolak** (Rejected Orders): Orders that were rejected or cancelled
+### Credit System
+- **Kredit** shows current account credit balance
+- Can be positive (credit available) or negative (owing)
+- Used for transactions and services
 
-### Shipping Metrics
-- **Pengiriman Selesai** (Completed Shipments): Successfully delivered
-- **Dikembalikan** (Returned): Returned shipments
-- **Tungggu Pencairan COD** (Awaiting COD Funds): Cash on delivery pending settlement
-- **Pengembalian Diproses** (Processing Returns): Return shipments in process
-- **Tungggu Penjemputan** (Awaiting Pickup): Waiting for courier pickup
+### Revenue Tracking
+- **Total Penghasilan** shows cumulative income
+- Tracks all revenue sources
+- Displayed in local currency (Rp)
 
-### Problem Tracking
-- **No update 48 jam** (No update 48 hours): Shipments without status update
-- **No update 4 hari** (No update 4 days): Older shipments without updates
-- **Dibatalkan** (Cancelled): Cancelled shipments
+### Savings
+- **Kamu Hemat** shows savings amount
+- Includes discounts and benefits earned
 
-## Dashboard Navigation Tips
+### Order Tracking
+Orders organized by status:
+- Completed orders vs rejected orders
+- Payment status tracking
+- Shipping status visibility
 
-1. **Left Sidebar**: Use for accessing different modules
+### Invoice Management
+Invoices tracked separately:
+- Creation count
+- Payment status
+- View tracking
+
+### Shipping Monitoring
+Shipment statuses displayed:
+- Successful deliveries
+- Returns and cancellations
+- Problem shipment alerts
+
+### Problem Shipment Alerts
+System flags shipments with issues:
+- No updates for extended periods
+- Cancelled shipments
+- Quick visibility for action items
+
+## Navigation Tips
+
+1. **Left Sidebar**: Use for accessing different modules and features
 2. **Top Navigation**: Quick access to credits, products, and settings
-3. **Quick Action Cards**: Clickable cards for common tasks
-4. **Metrics Display**: Monitor key performance indicators at a glance
+3. **Metric Cards**: Monitor key performance indicators at a glance
+4. **Problem Alerts**: Quick visibility for shipments needing attention
 
 ## Store Management
 
@@ -141,14 +178,24 @@ Dropdown menu to switch between stores or accounts:
 - Shows current store: "FLIK SANITY STORE"
 - Useful for merchants with multiple locations
 
-## Performance Monitoring
+## Quick Actions
 
-From the dashboard, you can monitor:
-- Order completion status
-- Payment status
-- Shipment progress
-- Problem shipments
-- Account credits
+While not shown as separate buttons on dashboard, users can access:
+- Create Invoice (via FLIK Checkout menu)
+- Create Order Form (via FLIK Checkout menu)
+- Create Shipment (via FLIK Shipping menu)
+- Create Promotion (via Promosi menu)
+- Check Balance (via Saldo menu)
+- Track Shipments (via FLIK Shipping > Lacak Pengiriman)
+
+## Best Practices
+
+1. ✅ Check dashboard daily to monitor key metrics
+2. ✅ Monitor problem shipments section for alerts
+3. ✅ Keep credit balance positive for operations
+4. ✅ Track payment status regularly
+5. ✅ Review completed orders count
+6. ✅ Monitor shipping success rates
 
 ## Next Steps
 

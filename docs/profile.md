@@ -1,188 +1,121 @@
 # Profile Management
 
-Manage your merchant profile, account information, and personal settings.
+View and manage your merchant profile information.
 
 ## Accessing Your Profile
 
 1. Click the **Profile Icon** in the top-right corner
-2. Select **Profile** or **Profil** from the dropdown menu
+2. Select **Profil** (Profile) from the dropdown menu
 3. You will be directed to your profile page
 
 ![Profile Page](../assets/screenshots/Profile%20Page/Profile%20Page.png)
 
-## Profile Information
+## Profile Page Layout
 
-### Account Details
-- **Merchant Name**: Your business name
-- **Email Address**: Primary contact email
-- **Phone Number**: Business contact number
-- **Business Type**: Category of your business
-- **Store Location**: Address of your store
+The profile page is divided into two main sections: Brand Information and PIC (Person In Charge) Information.
 
-### Edit Profile
-You can update the following information:
-- Store name
-- Business description
-- Contact information
-- Business address
-- Profile picture/logo
-- Business category
-- Website URL (if applicable)
+## Brand Information Section
 
-### How to Update Profile
-1. Click **Edit** or **Ubah** button
-2. Modify the fields you want to change
-3. Upload new profile image if needed
-4. Click **Save** or **Simpan**
-5. Confirm changes if required
+### Logo Brand
+- **Logo Brand**: Display your store's logo
+- **Current Display**: Orange colored FLIK logo shown as example
+- **Upload Option**: "Ubah Logo, format PNG/JPG" (Change logo, PNG/JPG format)
+  - Click to upload new logo
+  - Recommended size: 100px x 40px
+- **Link**: Click upload link to change logo
 
-## Security Settings
+### Nama Brand (Brand Name)
+- **Field Label**: Nama Brand (Brand Name)
+- **Current Value**: "Flik Sanity Store"
+- **Type**: Text input field
+- **Description**: Your store's display name
 
-### Password Management
-- Change your password regularly
-- Use strong, unique passwords
-- Avoid reusing old passwords
-- Don't share password with anyone
+### Website Brand
+- **Field Label**: Website Brand
+- **Current Value**: "https://flik-checkout-official.myshopify.com"
+- **Type**: Text input field
+- **Format Note**: "Format diawali www.contoh.com" (Format starts with www.example.com)
+- **Description**: Your store's website URL
 
-### How to Change Password
-1. Go to Profile page
-2. Look for **Security** or **Keamanan** section
-3. Click **Change Password** or **Ubah Kata Sandi**
-4. Enter current password
-5. Enter new password
-6. Confirm new password
-7. Click **Update** or **Perbarui**
+## PIC (Person In Charge) Information Section
 
-### Two-Factor Authentication (if available)
-- Enable 2FA for additional security
-- Use authenticator apps like Google Authenticator
-- Save backup codes in safe place
-- Update 2FA if you lose access
+### Nama PIC (Name)
+- **Field Label**: Nama PIC (Name)
+- **Current Value**: "Flik"
+- **Type**: Text input field
+- **Description**: Name of person in charge
 
-## Account Settings
+### Nomor Telepon PIC (Phone Number)
+- **Field Label**: Nomor Telepon PIC (Phone Number)
+- **Current Value**: "+62895392803677"
+- **Type**: Text input field with phone format
+- **Description**: Contact phone number for PIC
 
-### Email Preferences
-- Primary email address
-- Notification email settings
-- Email frequency preferences
-- Marketing email opt-in/out
+### Email PIC
+- **Field Label**: Email PIC
+- **Current Value**: "tech@flik.co.id"
+- **Type**: Text input field
+- **Description**: Email address for PIC
 
-### Notification Settings
-- Email notifications
-- SMS notifications (if applicable)
-- In-dashboard notifications
-- Alert frequency
-- Notification topics
+## Action Buttons
 
-### Privacy & Sharing
-- Data privacy settings
-- Information sharing preferences
-- Cookie preferences
-- Third-party integrations
+### Simpan Data (Save Data)
+- **Button**: "Simpan Data" (Save Data) - gray button at bottom right
+- **Function**: Save all changes made to profile information
+- **Status**: Appears grayed out when no changes made
 
-## Connected Accounts
+## Features
 
-### Integrations
-- Connect payment processors
-- Link shipping providers
-- Integrate marketing tools
-- Connect analytics platforms
+### View Profile Information
+- All profile fields are displayed on a single page
+- Current values are pre-filled in each field
 
-### View Connected Services
-1. Go to **Integrations** section
-2. View list of connected accounts
-3. Manage permissions for each integration
-4. Disconnect services if needed
+### Update Information
+- Edit text fields directly
+- Change logo via upload link
+- All fields appear to be editable
 
-## Billing Information
+### Save Changes
+- Click "Simpan Data" button to save all changes
+- Button likely becomes active only when changes are made
 
-### Payment Methods
-- Add payment method
-- Set primary payment method
-- Update card information
-- Remove saved payment methods
+## Profile Information Displayed
 
-### Billing Address
-- Update billing address
-- Same as shipping address option
-- Multiple address support (if applicable)
+The page shows:
+1. **Logo Brand**: Visual brand logo
+2. **Nama Brand**: Store/business name
+3. **Website Brand**: Official store website
+4. **Nama PIC**: Name of point of contact
+5. **Nomor Telepon PIC**: Phone number of contact
+6. **Email PIC**: Email of contact
 
-### Invoices & Receipts
-- View payment history
-- Download invoices
-- Track subscriptions
-- View receipt details
+## Best Practices
 
-## Data & Privacy
+1. ✅ Keep brand name consistent
+2. ✅ Use professional logo
+3. ✅ Maintain accurate contact information
+4. ✅ Use valid website URL
+5. ✅ Keep PIC details updated
+6. ✅ Verify email address
+7. ✅ Save changes after updates
 
-### Personal Data
-- View collected data
-- Request data export
-- Update data information
-- Request data deletion (if applicable)
+## Tips
 
-### Privacy Policy
-- Review privacy practices
-- Understand data usage
-- See data retention policy
-- Manage consent preferences
-
-### Data Export
-If you need to export your data:
-1. Go to **Data Management**
-2. Click **Export Data** or **Ekspor Data**
-3. Select what to export
-4. Download the exported file
-5. File format options: CSV, Excel, PDF
-
-## Account Deletion
-
-### Before Deleting Account
-⚠️ **Warning**: This action is permanent and cannot be undone.
-
-- Export important data first
-- Cancel active subscriptions
-- Ensure no pending orders
-- Download transaction history
-
-### Delete Account Process
-1. Go to **Account Settings**
-2. Scroll to bottom
-3. Click **Delete Account** or **Hapus Akun**
-4. Confirm your identity
-5. Enter password to verify
-6. Review warning message
-7. Confirm deletion
-8. Account will be permanently deleted
+- **Logo Format**: Use PNG or JPG format, recommended 100px x 40px
+- **Website Format**: Start with www. or https://
+- **Phone Format**: Include country code (+62 for Indonesia)
+- **Email**: Use official business email
+- **Save Regularly**: Click "Simpan Data" after making changes
 
 ## Troubleshooting
 
 | Issue | Solution |
 |-------|----------|
-| Can't update profile | Check internet connection, try again |
-| Password change failed | Ensure current password is correct |
-| Email not updating | Verify email isn't already in use |
-| Profile picture not loading | Check file size and format |
-| Settings not saving | Clear browser cache and try again |
-
-## Tips for Profile Security
-
-1. ✅ Keep email address updated
-2. ✅ Use strong, unique password
-3. ✅ Enable two-factor authentication
-4. ✅ Review connected apps regularly
-5. ✅ Monitor account activity
-6. ✅ Log out from inactive sessions
-7. ✅ Don't share login credentials
-8. ✅ Update contact information promptly
-
-## Getting Help
-
-If you need assistance with your profile:
-- Click the **Help** icon (?) in the dashboard
-- Contact support team
-- Check FAQ section
-- Email support@flik.co.id (or appropriate support email)
+| Can't upload logo | Check file format (PNG/JPG), verify file size |
+| Website format error | Ensure format starts with www. or https:// |
+| Phone number error | Include country code in phone number |
+| Can't save changes | Check internet connection, verify all fields |
+| Logo not updating | Clear browser cache, refresh page |
 
 ## Next Steps
 

@@ -87,9 +87,7 @@ The Invoice list page contains:
 3. Fill in product details:
    - **Product Name**: Item name
    - **Description**: Item description
-   - **Quantity**: Number of items
-   - **Unit Price**: Price per item
-   - **Discount**: Optional discount (if applicable)
+   - **Harga** (Price): Price per item
 4. Click button to add product
 5. Product appears in the list
 6. Repeat for additional products
@@ -97,25 +95,10 @@ The Invoice list page contains:
 #### Product Line Items
 Each product line shows:
 - Product name
-- Quantity
-- Unit price
-- Total price (calculated)
+- Price (Harga)
 - Edit/Delete options
 
-### Step 4: Automatic Calculation
-
-The system automatically calculates:
-- **Subtotal**: Sum of all products
-- **Tax**: Calculated if applicable
-- **Total**: Final amount due
-
-### Step 5: Add Notes & Payment Information
-
-- **Notes**: Additional information for customer
-- **Payment Instructions**: How customer should pay
-- **Custom Message**: Personal message to customer
-
-### Step 6: Review & Create
+### Step 4: Review & Create
 
 1. Review all invoice details
 2. Click button to create invoice
@@ -186,7 +169,7 @@ Customers can:
 | Can't find invoice | Use search bar, check created date |
 | Link not copying | Click "Salin link" button again, check clipboard |
 | Customer can't access | Resend link, verify email/communication channel |
-| Wrong amount | Check product quantities and prices in invoice |
+| Wrong amount | Check product prices in invoice |
 | Missing customer info | Edit invoice to add customer details |
 
 ## Tips

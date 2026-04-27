@@ -8,8 +8,8 @@ The Invoice Management system allows you to:
 - Create professional invoices
 - Send invoices to customers
 - Track invoice payments
-- Customize invoice templates
 - Manage invoice records
+- Access payment links
 
 ## Invoice List Page
 
@@ -18,23 +18,38 @@ The Invoice Management system allows you to:
 ![List Invoice Page](../../assets/screenshots/FLIK%20Checkout%20-%20Invoice%20Page/List%20Invoice%20Page.png)
 
 1. Navigate to **FLIK Checkout** from main menu
-2. Select **Invoice** or **Faktur**
-3. You'll see the list of all invoices displayed above
+2. Select **Invoice**
+3. You'll see the list of all invoices
+
+### List Page Layout
+The Invoice list page contains:
+
+#### Header Section
+- Page title: "Invoice"
+- Top right: "Buat Invoice" (Create Invoice) button in dark blue
+- Search bar: "Cari data order" (Search order data) with search icon
+
+#### Invoice Table Columns
+- **ID Cart**: Invoice ID/reference number (e.g., #00052)
+- **Order/Nama Cart** (Order/Invoice Name): Invoice name or description (e.g., "Botol fancy")
+- **Shopper** (Customer): Customer name or identifier (shows "-" if not set)
+- **Tanggal Dibuat** (Created Date): Invoice creation date (e.g., "02 Apr, 2026")
+- **Total**: Invoice total amount (e.g., "Rp1" or "Rp25.000")
+- **Link Cart** (Invoice Link): "Salin link" (Copy link) button to share invoice with customer
 
 ### List Features
-- **View all invoices** created in your store
-- **Search invoices** by invoice number, customer name, or date
-- **Filter invoices** by status (Paid, Pending, Expired, Cancelled)
-- **Sort invoices** by date, amount, or customer
-- **Quick actions**: View, Edit, Delete, Send, Download
+- **Search invoices**: Use search bar to find invoices by order data
+- **View all invoices**: Scroll to see all created invoices
+- **Copy invoice link**: "Salin link" button to get shareable payment link
+- **Quick access**: Click invoice row to view or manage
 
-### Invoice Status
-- **Draft**: Invoice created but not sent
-- **Sent**: Invoice sent to customer
-- **Viewed**: Customer has viewed the invoice
-- **Paid**: Payment received
-- **Overdue**: Payment not received after due date
-- **Cancelled**: Invoice is cancelled
+### Invoice Information Shown
+- Invoice unique ID (cart ID)
+- Invoice name or order reference
+- Customer/shopper information
+- Creation date
+- Invoice amount in currency
+- Shareable link for payment
 
 ## Creating an Invoice
 
@@ -42,234 +57,145 @@ The Invoice Management system allows you to:
 
 ![Create Invoice Page](../../assets/screenshots/FLIK%20Checkout%20-%20Invoice%20Page/Create%20Invoice%20Page.png)
 
-1. Click **Buat Invoice** or **Create Invoice** button
+1. Click **Buat Invoice** (Create Invoice) button in top right
 2. You'll be directed to the Create Invoice Page shown above
-3. Fill in all the invoice details as described in the next sections
+3. Fill in all the invoice details
 
 ### Step 2: Fill Invoice Details
 
 #### Invoice Information
-- **Invoice Number**: Auto-generated or custom
-- **Invoice Date**: Date invoice is created
-- **Due Date**: Payment due date
-- **Invoice Title**: Custom invoice name (optional)
-- **Invoice Description**: Additional details
+- **Invoice Name/Title**: Name for the invoice
+- **Invoice Date**: When invoice is created
+- **Due Date**: Payment deadline
 
 #### Customer Information
-- **Customer Name**: Full name or business name
-- **Customer Email**: Email address for sending invoice
-- **Customer Phone**: Contact number
-- **Customer Address**: Delivery or billing address
-- **Tax ID**: Customer tax number (optional)
+- **Customer/Shopper Name**: Customer name
+- **Customer Email**: Email for sending invoice
+- **Customer Phone**: Contact number (optional)
 
-#### Billing Address
-- **Address**: Complete address
-- **City**: City name
-- **Province/State**: State or province
-- **Postal Code**: ZIP code
-- **Country**: Country selection
-
-### Step 3: Add Products
+#### Order/Reference Information
+- **Order Reference**: Order number or reference
+- **Other details**: As needed
 
 ### Step 3: Add Products
 
 ![Pop Up Tambah Produk Invoice](../../assets/screenshots/FLIK%20Checkout%20-%20Invoice%20Page/Pop%20Up%20Tambah%20Produk%20Invoice.png)
 
 #### Adding Products
-1. Click **Tambah Produk Custom** button
-2. The pop-up window shown above opens
+1. Click button to add products
+2. Pop-up window opens
 3. Fill in product details:
    - **Product Name**: Item name
    - **Description**: Item description
    - **Quantity**: Number of items
    - **Unit Price**: Price per item
-   - **Discount**: Optional discount
-   - **Tax**: Tax rate (if applicable)
-4. Click **Add** or **Tambah** to add product
+   - **Discount**: Optional discount (if applicable)
+4. Click button to add product
 5. Product appears in the list
 6. Repeat for additional products
 
 #### Product Line Items
 Each product line shows:
-- Product name and description
+- Product name
 - Quantity
 - Unit price
-- Total price
+- Total price (calculated)
 - Edit/Delete options
 
-### Step 4: Calculate Total
+### Step 4: Automatic Calculation
 
 The system automatically calculates:
 - **Subtotal**: Sum of all products
-- **Discount**: Applied discount
-- **Tax**: Calculated tax (if applicable)
+- **Tax**: Calculated if applicable
 - **Total**: Final amount due
 
-#### Adjustment Options
-- Apply additional discount
-- Add shipping cost
-- Add other charges/fees
-- Add payment terms note
-
-### Step 5: Add Notes & Terms
+### Step 5: Add Notes & Payment Information
 
 - **Notes**: Additional information for customer
-- **Terms & Conditions**: Payment terms
-- **Payment Instructions**: How to pay
+- **Payment Instructions**: How customer should pay
 - **Custom Message**: Personal message to customer
 
-### Step 6: Review & Send
+### Step 6: Review & Create
 
 1. Review all invoice details
-2. Preview invoice format
-3. Choose action:
-   - **Save as Draft**: Save without sending
-   - **Send**: Send invoice to customer via email
-   - **Send & Print**: Send email and open print dialog
-   - **Download**: Save invoice as PDF
-
-## Sending Invoices
-
-### How to Send Invoice
-1. Create or open invoice
-2. Click **Send** or **Kirim** button
-3. Verify customer email
-4. Add custom message (optional)
-5. Click **Send** confirmation
-6. Invoice sent to customer
-
-### Send Methods
-- **Email**: Send invoice to customer email
-- **SMS**: Send link via SMS (if enabled)
-- **Whatsapp**: Share via WhatsApp (if integrated)
-- **Direct Link**: Generate shareable link
+2. Click button to create invoice
+3. Invoice is created and ready to send
 
 ## Managing Invoices
 
+### Copy Invoice Link
+From the invoice list:
+1. Find invoice in the table
+2. Click **Salin link** (Copy link) button
+3. Link is copied to clipboard
+4. Share link with customer via:
+   - Email
+   - WhatsApp
+   - SMS
+   - Any communication channel
+
 ### View Invoice Details
-1. Click invoice from list
-2. See full invoice information
-3. View payment status
-4. See payment history
-5. Download invoice PDF
+1. Click invoice ID or name in the list
+2. View complete invoice information
+3. See all details and amounts
+4. Access sharing and payment options
 
-### Edit Invoice
-- Click **Edit** on draft invoices
-- Modify customer information
-- Update products
-- Change amounts
-- Update due date
+### Send Invoice to Customer
+1. Copy the invoice link using "Salin link" button
+2. Send link to customer via preferred channel
+3. Customer can access and pay via the link
 
-⚠️ **Note**: Sent/Paid invoices may have limited edit options
+### Invoice Payment
+Customers can:
+- Click invoice link
+- Review invoice details
+- Select payment method
+- Complete payment
+- Receive confirmation
 
-### Delete Invoice
-1. Click **Delete** or **Hapus** option
-2. Confirm deletion
-3. Invoice is removed from system
+## Invoice Organization
 
-⚠️ **Note**: Can only delete draft or unpaid invoices with no payment records
+### Search & Find
+- Use **Cari data order** search bar to find invoices
+- Search by:
+  - Invoice ID
+  - Order name
+  - Customer name
+  - Or other order data
 
-### Download Invoice
-- Click **Download** or **Unduh**
-- Choose file format: PDF
-- Save to your computer
-- Print if needed
-
-## Invoice Settings
-
-### Customize Invoice Template
-1. Go to Settings
-2. Select **Invoice Templates**
-3. Choose default template
-4. Customize:
-   - Colors and branding
-   - Logo placement
-   - Font styles
-   - Layout
-5. Save template
-
-### Tax Configuration
-- Set default tax rate
-- Set tax per product
-- Add tax exempt status
-- Configure tax display
-
-### Numbering System
-- Set invoice numbering format
-- Auto-increment numbers
-- Prefix/Suffix configuration
-- Starting number
-
-## Payment Tracking
-
-### Mark as Paid
-1. Open paid invoice
-2. View payment status
-3. System auto-marks when payment received
-4. Manual mark as paid option available
-
-### Payment Methods Tracked
-- Online payment
-- Bank transfer
-- Check
-- Cash
-- Other methods
-
-### Payment History
-- See all payments received
-- View payment dates
-- Check payment amounts
-- View payment method
-- Export payment records
-
-## Invoice Reports
-
-### View Invoice Analytics
-- Total invoices created
-- Total revenue
-- Outstanding amount
-- Overdue invoices
-- Average payment time
-- Payment success rate
-
-### Generate Reports
-1. Go to Analytics section
-2. Select Invoice Reports
-3. Choose date range
-4. Select report type
-5. Download or view report
-
-![Laporan & Analisis FLIK Checkout](../../assets/screenshots/Laporan%20&%20Analisis%20-%20FLIK%20Checkout/Laporan%20&%20Analisis%20FLIK%20Checkout.png)
+### View All Invoices
+- Scroll through the list to view all created invoices
+- Each row shows key information
+- Dates help identify recent invoices
 
 ## Best Practices
 
-1. ✅ Set clear due dates
-2. ✅ Use descriptive product names
-3. ✅ Include all relevant details
-4. ✅ Send invoices promptly
-5. ✅ Follow up on overdue invoices
-6. ✅ Keep records organized
-7. ✅ Use invoice templates
-8. ✅ Regular backups
+1. ✅ Use clear, descriptive invoice names
+2. ✅ Include accurate customer information
+3. ✅ Add detailed product descriptions
+4. ✅ Share invoice links promptly
+5. ✅ Follow up on unpaid invoices
+6. ✅ Keep clear payment terms
+7. ✅ Save important invoice references
+8. ✅ Monitor invoice amounts
 
 ## Troubleshooting
 
 | Issue | Solution |
 |-------|----------|
-| Invoice not sending | Check customer email, verify email settings |
-| Customer can't view | Check email spam folder, resend link |
-| Calculation incorrect | Review tax settings, product prices |
-| Can't edit invoice | Ensure invoice is still in draft status |
-| Invoice number issue | Check numbering configuration |
+| Can't find invoice | Use search bar, check created date |
+| Link not copying | Click "Salin link" button again, check clipboard |
+| Customer can't access | Resend link, verify email/communication channel |
+| Wrong amount | Check product quantities and prices in invoice |
+| Missing customer info | Edit invoice to add customer details |
 
 ## Tips
 
-- **Use templates** for faster invoice creation
-- **Set reminder dates** for follow-ups
-- **Send invoices promptly** for faster payment
-- **Customize messages** for better customer relations
-- **Monitor overdue** invoices closely
-- **Backup data** regularly
+- **Generate payment link immediately** after creating invoice
+- **Share links via multiple channels** for reliability
+- **Use consistent naming** for easy identification
+- **Save important invoice IDs** for reference
+- **Monitor unpaid invoices** regularly
 
 ## Next Steps
 

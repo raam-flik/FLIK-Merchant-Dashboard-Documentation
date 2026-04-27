@@ -4,209 +4,130 @@ Monitor and manage your account balance, transactions, and payment settings.
 
 ## Overview
 
-Saldo (Balance) allows you to track your account funds, transaction history, and manage financial operations.
+Saldo (Balance) allows you to track your account funds and manage financial operations.
 
-## Saldo Dashboard
+## Saldo Page
 
 ![Saldo Page](../../assets/screenshots/Saldo%20Page/Saldo%20Page.png)
 
-View your current account status and financial summary.
+View your current account balance and financial information.
 
-### Balance Information
+### Top Section
 
-#### Current Balance
-- **Available Balance**: Ready to use funds
-- **Pending Balance**: In-process funds
-- **Total Balance**: All funds
-- **Currency**: Account currency (IDR, etc.)
+#### Saldo Display
+- **Saldo** (Balance): Current account balance with currency (e.g., "Rp -617")
+  - Shows negative balance or credit in the account
+  - Displayed prominently at top left
 
-#### Balance Breakdown
-- **Payments Received**: From customers
-- **Refunds Issued**: Customer returns
-- **Service Fees**: Platform charges
-- **Shipping Costs**: Logistics expenses
-- **Deposits**: Manually added funds
+#### Action Buttons
+- **Beli Kredit** (Buy Credit): Button to purchase service credits (dark blue button)
+- **Cairkan Dana** (Withdraw Funds): Button to request fund withdrawal (outlined button)
+
+#### Linked Bank Account
+- **Bank Account Display**: Shows connected bank account information
+  - Bank name (e.g., "Bank Central Asia")
+  - Account number (masked, e.g., "****** 7593")
+
+#### Account Settings
+- **Pengaturan Akun** (Account Settings): Button/link to configure account options (right side)
+
+### Transaction History Section
+
+#### Search and Filter
+- **Search Bar**: "Cari data order" (Search order data)
+- **Date Filter**: "Minggu Ini" (This Week) - dropdown to select date range
+- **Transaction Type Filter**: "Tipe Transaksi" (Transaction Type) - dropdown to filter by type
+- **Export Button**: "Export" button to download transaction data
+
+#### Transaction Table Columns
+- **ID**: Transaction identifier
+- **Waktu Transaksi** (Transaction Time): When transaction occurred
+- **Catatan** (Notes/Description): What the transaction was for
+- **Tipe** (Type): Type of transaction (Income/Expense/etc.)
+- **Nominal** (Amount): Transaction amount in currency
+
+#### Empty State
+When no transactions exist:
+- Message: "Tidak ada data" (No data)
+- Description: "Belum ada data untuk ditampilkan saat ini." (No data to display at this time.)
+
+## Account Information Display
+
+### Current Balance
+The page clearly shows your current Saldo (balance) at the top, which can be:
+- Positive (credit balance)
+- Negative (owing balance)
+- In currency (Rp for Indonesian Rupiah)
+
+### Connected Payment Methods
+Display of linked bank accounts:
+- Bank name
+- Partial account number (masked for security)
+
+## Features
+
+### Beli Kredit (Buy Credit)
+Purchase credits for:
+- Service usage
+- Transaction processing
+- Premium features
+- Other platform services
+
+### Cairkan Dana (Withdraw Funds)
+Request withdrawal of available funds:
+1. Click "Cairkan Dana" button
+2. Specify withdrawal amount
+3. Select destination account
+4. Confirm request
+5. Funds processed
+
+### Pengaturan Akun (Account Settings)
+Configure account preferences and linked payment methods:
+- Update payment methods
+- Configure withdrawal settings
+- Manage account preferences
+- View linked accounts
 
 ## Transaction History
 
-### View Transactions
+### View All Transactions
+The table displays all account transactions with:
+- **ID**: Unique transaction identifier
+- **Waktu Transaksi** (Transaction Time): Date and time of transaction
+- **Catatan** (Description): Details about the transaction
+- **Tipe** (Type): Category of transaction
+- **Nominal** (Amount): Transaction amount
 
-List of all account transactions:
-- **Date**: Transaction date
-- **Description**: What transaction
-- **Amount**: Fund amount
-- **Type**: Income/Expense/Fee
-- **Status**: Completed/Pending
-- **Balance**: After transaction
+### Filter Transactions
+- **By Date**: Use "Minggu Ini" dropdown to select time period
+- **By Type**: Use "Tipe Transaksi" dropdown to filter by transaction type
+- **By Text**: Use search bar to find specific transactions
 
-### Transaction Types
-
-- **Customer Payment**: Income from sale
-- **Refund Issued**: Customer return
-- **Service Fee**: Monthly fee
-- **Shipping Cost**: Logistics charge
-- **Withdrawal**: Cash out
-- **Deposit**: Cash in
-- **Adjustment**: Manual adjustment
-
-### Filter & Search
-
-- **Date Range**: Custom period
-- **Transaction Type**: Specific type
-- **Amount**: By amount
-- **Status**: Completed/Pending
-- **Description**: Search terms
-
-## Payment Methods
-
-### Linked Payment Methods
-
-![Pengaturan Akun Pop Up](../../assets/screenshots/Saldo%20Page/Pengaturan%20Akun%20Pop%20Up.png)
-
-Manage payment accounts:
-- **Bank Account**: Primary account
-- **E-Wallet**: Linked e-wallets
-- **Payment Cards**: Credit/debit cards
-- **Other**: Alternative methods
-
-### Add Payment Method
-
-1. Click **Add Payment Method**
-2. Select method type
-3. Enter account details
-4. Verify account
-5. Set as primary if desired
-6. Save
-
-### Update Payment Methods
-
-- **Change Primary**: Select default
-- **Update Details**: Modify info
-- **Remove**: Delete method
-- **Verify**: Confirm details
-
-## Purchase Credit
-
-### Buy Service Credits
-
-![Pencarian Dana pop up](../../assets/screenshots/Saldo%20Page/Pencarian%20Dana%20pop%20up.png)
-
-Purchase credits for services:
-
-#### Available Credits
-- **SMS Credit**: For SMS marketing
-- **API Calls**: For integrations
-- **Storage**: Additional storage
-- **Premium Features**: Advanced tools
-- **Support Tickets**: Priority support
-
-#### Purchase Process
-1. Select credit type
-2. Choose quantity
-3. Confirm purchase
-4. Process payment
-5. Credits added immediately
-
-### Credit Usage
-
-- **Track Usage**: Monitor consumption
-- **View Balance**: Remaining credits
-- **Auto-replenish**: Automatic refill
-- **Set Limits**: Maximum spending
-- **History**: Usage history
-
-## Account Settings
-
-### Manage Account
-
-![Pengaturan Akun Pop Up](../../assets/screenshots/Saldo%20Page/Pengaturan%20Akun%20Pop%20Up.png)
-
-Configure account options:
-
-#### Notification Settings
-- Email notifications for:
-  - Low balance alert
-  - Large transactions
-  - Pending payments
-  - Account changes
-- SMS notifications (if enabled)
-
-#### Security Settings
-- Change password
-- Two-factor authentication
-- Login notifications
-- Session management
-- API key management
-
-#### Preferences
-- Currency preference
-- Timezone
-- Language
-- Email frequency
-- Communication preferences
-
-## Financial Reports
-
-### Account Summary
-- Total income (period)
-- Total expenses (period)
-- Net balance
-- Transaction count
-- Average transaction
-
-### Detailed Reports
-- Income breakdown
-- Expense breakdown
-- Fee summary
-- Period comparison
-- Trend analysis
-
-### Export Options
-- CSV format
-- Excel format
-- PDF format
-- Date range
-- Filter criteria
-
-## Withdrawals
-
-### Withdraw Funds
-
-Process:
-1. Request withdrawal
-2. Select amount
-3. Choose destination account
-4. Confirm details
-5. Submit request
-6. Funds transferred (1-3 days typically)
-
-### Withdrawal Limits
-- **Minimum Amount**: Lowest withdrawal
-- **Maximum Amount**: Daily limit
-- **Processing Time**: Days to transfer
-- **Fee**: Withdrawal fee
-- **Frequency**: How often allowed
+### Export Data
+- Click **Export** button to download transactions
+- File formats available (typically CSV, Excel, PDF)
+- Use for accounting and record keeping
 
 ## Best Practices
 
-- Check balance regularly
-- Monitor transactions
-- Keep payment methods current
-- Set low balance alerts
-- Plan large purchases
-- Track cash flow
-- Review reports monthly
-- Maintain good standing
+1. ✅ Check balance regularly
+2. ✅ Monitor transactions
+3. ✅ Keep payment methods current
+4. ✅ Plan withdrawals in advance
+5. ✅ Export records monthly
+6. ✅ Maintain accurate account info
+7. ✅ Review transaction descriptions
+8. ✅ Track cash flow
 
 ## Troubleshooting
 
 | Issue | Solution |
 |-------|----------|
-| Balance incorrect | Check recent transactions, contact support |
-| Payment method declined | Update payment info, try different method |
-| Withdrawal pending | Wait 1-3 days for processing |
-| Transaction disappeared | Check pending status, verify account |
-| Can't add payment | Verify details, ensure account eligible |
+| Balance shows incorrect | Refresh page, check recent transactions |
+| Can't withdraw funds | Ensure sufficient balance, verify account |
+| Transactions not showing | Change date filter, check transaction type |
+| Export not working | Try different file format, refresh page |
+| Payment method issue | Update in account settings, contact support |
 
 ---
 

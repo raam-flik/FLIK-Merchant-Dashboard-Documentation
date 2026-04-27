@@ -1,112 +1,147 @@
 # Customer Management
 
-Organize and manage customer information, track purchase history, and build relationships.
+Organize and manage customer information and track purchase activity.
 
 ## Overview
 
-Customer Management allows you to centralize customer information and track interactions.
+Customer Management allows you to view all your customers and their purchase history.
 
 ## Customer List Page
 
 ![Customer Page](../../assets/screenshots/Marketing%20-%20Customer/Customer%20Page.png)
 
-View and manage all customer information with filters and search capabilities.
+View and manage all customer information with summary statistics and a detailed list.
 
-### Customer Information
+### Top Summary Section
 
-#### Basic Details
-- **Name**: Full customer name
-- **Email**: Email address
-- **Phone**: Contact number
-- **Address**: Shipping/billing address
-- **Registration Date**: When customer joined
-- **Status**: Active or Inactive
+The page displays four key metrics at the top:
 
-#### Purchase History
-- **Total Orders**: Number of purchases
-- **Total Spent**: Cumulative spending
-- **Average Order Value**: AOV
-- **Last Purchase**: Most recent order
-- **Purchase Frequency**: How often buys
+#### Summary Statistics
+- **Total Pembeli** (Total Buyers): Total number of customers (e.g., "50")
+- **Pembeli Kembali** (Returning Buyers): Number of repeat customers (e.g., "50")
+- **Rata-rata Total Pesanan** (Average Total Orders): Average order value (e.g., "Rp1.638.705")
+- **Lokasi Teratas** (Top Location): Most customers' location (e.g., "KOTA JAKARTA SELATAN")
 
-#### Engagement
-- **Email Subscription**: Newsletter opt-in
-- **SMS Subscription**: SMS consent
-- **Loyalty Status**: Member level
-- **Referral Source**: How found you
-- **Tags**: Custom categorization
+### Search and Filter Section
 
-### Search & Filter
+#### Search Bar
+- **Search**: "Cari nama atau No. HP" (Search by name or phone number)
+- Search icon to execute search
 
-- **Search**: By name, email, phone
-- **Filter by Status**: Active, Inactive
-- **Filter by Spend**: High/Medium/Low value
-- **Filter by Frequency**: Regular, Occasional
-- **Custom Filters**: Create your own
-- **Segments**: Predefined groups
+#### Filter Options
+- **Transaksi Terakhir** (Last Transaction): Dropdown to filter by transaction date range
+- **Kota** (City): Dropdown to filter by customer location
 
-### Customer Actions
+#### Export
+- **Export** button: Download customer data (typically CSV, Excel)
 
-- **View Details**: Full customer profile
-- **Purchase History**: All orders
-- **Email**: Send direct message
-- **SMS**: Send text message
-- **Apply Discount**: Give special offer
-- **Add Note**: Internal notes
-- **Tag**: Categorize customer
+### Customer Table
 
-## Customer Segments
+#### Table Columns
+- **Nama** (Name): Customer name with clickable link icon
+- **No. Handphone** (Phone Number): Customer phone number with copy icon
+- **Shopper Group** (Customer Group): Customer category or group (shows "-" if not assigned)
+- **Transaksi Terakhir** (Last Transaction): Date of most recent purchase (shows "-" if none)
+- **Total Belanja** (Total Spent): Cumulative spending amount (e.g., "Rp 0", "Rp 100.000")
 
-### Predefined Segments
+### Customer Information Displayed
 
-- **VIP Customers**: Highest spenders
-- **Regular Customers**: Frequent buyers
-- **New Customers**: Recent signups
-- **At-Risk**: Haven't purchased recently
-- **Inactive**: No recent activity
+For each customer row:
+- Customer name
+- Phone number (clickable, can be copied)
+- Group assignment (if any)
+- Last transaction date
+- Total amount spent
+- Green checkmark icon next to phone number
 
-### Custom Segments
+## Customer List Features
 
-Create segments based on:
-- Purchase frequency
-- Spending amount
-- Product category
-- Location
-- Registration date
-- Custom criteria
+### View Customer Details
+- Click customer name or row
+- View complete customer profile
+- See all purchase transactions
+- View customer history
 
-## Customer Communications
+### Search Customers
+- Use search bar to find by:
+  - Customer name
+  - Phone number
+  - Other identifiers
 
-### Email Campaigns
-- Newsletter signup
-- Promotional campaigns
-- Abandoned cart recovery
-- Post-purchase follow-up
-- Re-engagement campaigns
+### Filter by Location
+- Use "Kota" (City) dropdown
+- View customers in specific city
+- Filter to one location or see all
 
-### SMS Campaigns
-- Order updates
-- Promotional offers
-- Reminder messages
-- Time-sensitive deals
+### Filter by Transaction Date
+- Use "Transaksi Terakhir" dropdown
+- See customers by last purchase timeframe
+- Track active vs inactive customers
 
-### Personalization
+### Export Customer Data
+- Click "Export" button
+- Download customer list with information
+- Use for external analysis or backup
 
-- Use customer name in messages
-- Reference past purchases
-- Recommend similar products
-- Send birthday offers
-- Anniversary discounts
+## Customer Interaction
+
+### Contact Customers
+- Phone numbers displayed for easy reference
+- Can copy phone numbers from list
+- Use for direct communication
+
+### Track Spending
+- View total amount each customer has spent
+- Identify top spenders
+- Track average customer value
+
+### Monitor Activity
+- Last transaction date shows purchase activity
+- Track when customer last made a purchase
+- Identify inactive customers
+
+## Customer Organization
+
+### Customer Groups
+Some customers may be assigned to groups:
+- Shows in "Shopper Group" column
+- Helps categorize customers
+- "-" indicates no group assignment
+
+### Geographic Tracking
+- Top location statistic shows concentration
+- City filter allows location-based view
+- Track customer distribution
 
 ## Best Practices
 
-- Keep data updated
-- Respect preferences
-- Personalize communications
-- Segment for relevance
-- Track engagement
-- Monitor unsubscribes
-- Maintain privacy compliance
+1. ✅ Keep customer data current
+2. ✅ Regularly review top customers
+3. ✅ Monitor inactive customers
+4. ✅ Use filters to segment customers
+5. ✅ Export data regularly for backup
+6. ✅ Track customer spending trends
+7. ✅ Respect customer privacy
+8. ✅ Update contact information
+
+## Tips
+
+- **Use the search** to quickly find specific customers
+- **Filter by city** to target location-based promotions
+- **Check last transaction date** to identify loyal vs inactive customers
+- **Monitor total spending** to identify VIP customers
+- **Export regularly** for records and analysis
+- **Check top locations** to understand geographic distribution
+
+## Troubleshooting
+
+| Issue | Solution |
+|-------|----------|
+| Can't find customer | Use search bar, check spelling, try phone number |
+| Last transaction not showing | Customer may not have purchases, check transaction records |
+| Can't copy phone number | Click copy icon next to number |
+| Filter not working | Refresh page, try different filter option |
+| Export failed | Check file format, try again |
 
 ---
 

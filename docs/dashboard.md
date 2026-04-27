@@ -2,148 +2,160 @@
 
 The Dashboard is your central hub to monitor business performance and access all features of the FLIK Merchant Platform.
 
-## Dashboard Features
+## Dashboard Layout
 
-### Key Metrics at a Glance
-- **Total Orders**: View order statistics
-- **Revenue**: Track your sales performance
-- **Pending Shipments**: Monitor active shipments
-- **Active Campaigns**: See running promotions
-- **Account Balance**: Check your Saldo (balance)
+### Top Navigation Bar
+Located at the top of every page:
+- **FLIK Logo + Menu Icon** (left): Home and main navigation
+- **Rp-617** (center-left): Store/account identifier display
+- **Beli Kredit** (center): Button to purchase service credits
+- **Produk Kami** (center): Access FLIK products and services
+- **Settings Icon** (center-right): Configuration and account settings
+- **Help Icon** (center-right): Assistance and support
+- **Store Selector** (right): "FLIK SANITY STORE" with dropdown menu
 
-### Navigation Overview
-The dashboard provides quick access to all major modules:
+### Left Sidebar Navigation Menu
+Collapsible menu with quick access to:
+- **Home**: Dashboard home
+- **Dashboard**: Main dashboard view
+- **Saldo**: Account balance and transactions
+- **FLIK Checkout** (expandable): Invoice, Order Form, Toko Offline, Personalization
+- **FLIK Shipping** (expandable): Pengiriman, Multiple Warehouse, Lacak Pengiriman, etc.
+- **Pendanaan** (Funding): Merchant Cash Advance and funding options
+- **Marketing** (expandable): Customer management and leads
+- **Promosi** (Promotions): Voucher, Cashback, QR Campaign, Post Purchase Offer
+- **Laporan & Analisis** (Reports): Analytics and reporting
 
-#### Top Navigation Bar
-- **Logo/Home**: Return to dashboard anytime
-- **Gear Icon**: Access settings and configuration options
-- **Produk Kami**: Browse available FLIK products and services
-- **Beli Kredit**: Purchase service credits
-- **Profile Icon**: View profile and account settings
-- **Question Mark**: Access help and FAQ
+### Main Dashboard Display
 
-#### Main Menu Modules
-1. **FLIK Checkout** - Payment and order management
-2. **FLIK Shipping** - Logistics and shipment tracking
-3. **Promotions** - Marketing campaigns and offers
-4. **Marketing** - Customer management and leads
-5. **Analytics** - Reports and performance metrics
-6. **Financial** - Cash advance and balance management
+The dashboard shows key metrics and information:
 
-### Dashboard Layout
-```
-┌─────────────────────────────────────────────────┐
-│ FLIK Logo    Settings  Produk  Kredit  Profile  │
-└─────────────────────────────────────────────────┘
-┌──────────────────────────────────────────────────┐
-│                                                    │
-│  DASHBOARD OVERVIEW                              │
-│                                                    │
-│  ┌──────────┐  ┌──────────┐  ┌──────────┐       │
-│  │ Orders   │  │ Revenue  │  │ Balance  │       │
-│  │ 145      │  │ Rp 5.2M  │  │ Rp 500K  │       │
-│  └──────────┘  └──────────┘  └──────────┘       │
-│                                                    │
-│  Quick Links:                                     │
-│  • Create Invoice     • Create Order Form         │
-│  • Create Shipping    • Create Promotion         │
-│                                                    │
-└──────────────────────────────────────────────────┘
-```
+#### Top Cards Section
+- **Kredit** (Credits): Shows current credit balance (e.g., "Rp-617")
+- **Total Penghapusan** (Total Removed/Processed): Revenue/value metric (e.g., "Rp823.748")
+- **Kamu Hemat** (You Saved): Savings amount (e.g., "Rp2.450")
 
-### Quick Actions
-From the dashboard, you can quickly:
-- Create a new invoice
-- Create an order form
-- Initiate a shipment
-- Launch a promotion campaign
-- View customer insights
+#### Quick Access Cards Section
+Shows business metrics organized in cards:
+- **Checkout Section**
+  - Order Selesai (Completed Orders): Count
+  - Terkirim (Shipped): Count
+  - Dalam Pengiriman (In Transit): Count
+  - Sudah Dibayar (Paid): Count
+  - Tungggu Pembayaran (Awaiting Payment): Count
+  - Order Ditolak (Rejected Orders): Count
 
-![Dashboard Page](../assets/screenshots/Dashboard%20Page/Dashboard%20Page.png)
+- **Additional Metrics**
+  - Selesai (Completed)
+  - Sudah Dibayar (Paid)
+  - Tungggu Pembayaran (Awaiting Payment)
+  - Dilihat (Viewed)
+  - Dibuat (Created)
 
-## General Settings & Interactions
+- **Pengiriman Section** (Shipping)
+  - Pengiriman Selesai (Completed Shipments)
+  - Dikembalikan (Returned)
+  - Tungggu Pencairan COD (Awaiting COD Funds)
+  - Pengembalian Diproses (Processing Returns)
+  - Dalam Pengiriman (In Transit)
+  - Tungggu Penjemputan (Awaiting Pickup)
 
-### Gear Settings Icon
-Click the gear icon in the top-right area to access:
-- Account preferences
-- Notification settings
-- Privacy settings
-- System settings
-- Logout option
+- **Pengiriman Bermasalah** (Problem Shipments)
+  - No update 48 jam (No update 48 hours)
+  - No update 4 hari (No update 4 days)
+  - Dibatalkan (Cancelled)
 
-![Gear Settings Clicked](../assets/screenshots/General/Gear%20Settings%20Clicked.png)
+#### Quick Action Buttons
+Access buttons for common tasks (shown in settings/help area):
+- Invoice online - "Buat invoice dengan pilihan metode pembayaran" (+ Invoice)
+- Kirim paket - "Banyak pilihan kurir dengan berbagai layanan" (+ Pengiriman)
+- Order form - "Buat landing page dan formulir untuk penjualan online" (+ Order Form)
+- Tambah promo - "Buat promo ongkir atau promo produk terbaru" (+ Promo)
+- Top up saldo - "Tambahkan saldo untuk buat pengiriman" (+ Saldo)
+- Lacak pengiriman - "Cek status paket satuan atau dalam jumlah banyak" (Cek)
 
-### Profile Management
-Click your profile icon to:
-- View profile details
-- Edit account information
-- Change password
-- Manage email preferences
-- View connected accounts
-- Logout
-
-![Profile Clicked](../assets/screenshots/General/Profile%20Clicked.png)
-
-### Produk Kami (Our Products)
-Access information about:
-- Available FLIK services
-- Product pricing
-- Feature descriptions
-- Subscription plans
-- Upgrade options
-
-![Produk Kami Page](../assets/screenshots/General/Produk%20Kami%20Page.png)
+## Key Features
 
 ### Beli Kredit (Buy Credit)
-Purchase credits for:
+Button in top navigation to purchase credits for:
+- Service usage
 - Premium features
-- SMS sending
-- API calls
-- Advanced analytics
-- Additional storage
+- Additional transactions
 
-![Pop Up Beli Kredit](../assets/screenshots/General/Pop%20Up%20Beli%20Kredit.png)
+### Produk Kami (Our Products)
+Access to FLIK's product and service offerings:
+- Available services
+- Features and benefits
+- Pricing information
 
-### Help & Support
-Click the question mark icon to access:
-- FAQ (Frequently Asked Questions)
-- Tutorial videos
-- Knowledge base articles
-- Contact support
-- Report issues
+### Settings Icon
+Access account and system settings:
+- Account preferences
+- Notification settings
+- System configuration
 
-![Punya Pertanyaan Page](../assets/screenshots/General/Punya%20Pertanyaan%20Page.png)
+### Help Icon
+Access to support and documentation:
+- FAQ and help content
+- Product guidance
+- Support contact
 
-## Dashboard Tips
+### Store Selector
+Dropdown menu to switch between stores or accounts:
+- Current store: "FLIK SANITY STORE"
+- Switch between multiple stores if applicable
 
-### Efficiency Tips
-1. **Bookmark important pages** for quick access
-2. **Check dashboard daily** to monitor key metrics
-3. **Enable notifications** for important updates
-4. **Keep profile updated** with current information
-5. **Review analytics regularly** to optimize performance
+## Dashboard Metrics Explained
 
-### Performance Monitoring
-- Track daily order volume
-- Monitor revenue trends
-- Watch shipment success rates
-- Review campaign performance
-- Analyze customer behavior
+### Order Metrics
+- **Order Selesai** (Completed Orders): Total orders that have been processed
+- **Terkirim** (Shipped): Orders that have been dispatched
+- **Dalam Pengiriman** (In Transit): Orders currently on the way
+- **Sudah Dibayar** (Paid): Orders with payment received
+- **Tungggu Pembayaran** (Awaiting Payment): Unpaid orders pending payment
+- **Order Ditolak** (Rejected Orders): Orders that were rejected or cancelled
 
-## Mobile Experience
+### Shipping Metrics
+- **Pengiriman Selesai** (Completed Shipments): Successfully delivered
+- **Dikembalikan** (Returned): Returned shipments
+- **Tungggu Pencairan COD** (Awaiting COD Funds): Cash on delivery pending settlement
+- **Pengembalian Diproses** (Processing Returns): Return shipments in process
+- **Tungggu Penjemputan** (Awaiting Pickup): Waiting for courier pickup
 
-The dashboard is responsive and works on:
-- Desktop browsers (recommended)
-- Tablets
-- Mobile phones (basic functionality)
+### Problem Tracking
+- **No update 48 jam** (No update 48 hours): Shipments without status update
+- **No update 4 hari** (No update 4 days): Older shipments without updates
+- **Dibatalkan** (Cancelled): Cancelled shipments
 
-For best experience, use desktop version for managing complex operations.
+## Dashboard Navigation Tips
+
+1. **Left Sidebar**: Use for accessing different modules
+2. **Top Navigation**: Quick access to credits, products, and settings
+3. **Quick Action Cards**: Clickable cards for common tasks
+4. **Metrics Display**: Monitor key performance indicators at a glance
+
+## Store Management
+
+### Store Selector (Top Right)
+- Click dropdown to view or switch stores
+- Shows current store: "FLIK SANITY STORE"
+- Useful for merchants with multiple locations
+
+## Performance Monitoring
+
+From the dashboard, you can monitor:
+- Order completion status
+- Payment status
+- Shipment progress
+- Problem shipments
+- Account credits
 
 ## Next Steps
 
 From the dashboard, you can navigate to:
 - [FLIK Checkout Documentation](./flik-checkout/)
 - [FLIK Shipping Documentation](./flik-shipping/)
+- [Saldo (Balance) Documentation](./financial/saldo.md)
 - [Promotions Documentation](./promotions/)
 - [Marketing Documentation](./marketing/)
 - [Analytics Documentation](./analytics/)

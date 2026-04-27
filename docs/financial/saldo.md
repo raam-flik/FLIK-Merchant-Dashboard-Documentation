@@ -40,11 +40,11 @@ View your current account balance and financial information.
 - **Export Button**: "Export" button to download transaction data
 
 #### Transaction Table Columns
-- **ID**: Transaction identifier
-- **Waktu Transaksi** (Transaction Time): When transaction occurred
-- **Catatan** (Notes/Description): What the transaction was for
-- **Tipe** (Type): Type of transaction (Income/Expense/etc.)
-- **Nominal** (Amount): Transaction amount in currency
+- **ID**: System-generated transaction identifier (e.g., "CA2D598B")
+- **Waktu** (Time): Date and time of transaction (e.g., "Apr 2, 2026 14:52")
+- **No Referensi** (Reference Number): System-generated reference number (e.g., "02042025-MRMJXK-1")
+- **Tipe** (Type): Type/category of transaction (e.g., "Harga Produk")
+- **Nominal** (Amount): Transaction amount in currency (e.g., "Rp...")
 
 #### Empty State
 When no transactions exist:
@@ -91,12 +91,12 @@ Configure account preferences and linked payment methods:
 ## Transaction History
 
 ### View All Transactions
-The table displays all account transactions with:
-- **ID**: Unique transaction identifier
-- **Waktu Transaksi** (Transaction Time): Date and time of transaction
-- **Catatan** (Description): Details about the transaction
-- **Tipe** (Type): Category of transaction
-- **Nominal** (Amount): Transaction amount
+The table displays all account transactions with columns:
+- **ID**: System-generated transaction identifier
+- **Waktu**: Date and time when transaction occurred
+- **No Referensi**: System-generated reference number for tracking
+- **Tipe**: Category or type of transaction
+- **Nominal**: Transaction amount in Rupiah (Rp)
 
 ### Filter Transactions
 - **By Date**: Use "Minggu Ini" dropdown to select time period
@@ -116,7 +116,7 @@ The table displays all account transactions with:
 4. ✅ Plan withdrawals in advance
 5. ✅ Export records monthly
 6. ✅ Maintain accurate account info
-7. ✅ Review transaction descriptions
+7. ✅ Review transaction types
 8. ✅ Track cash flow
 
 ## Troubleshooting

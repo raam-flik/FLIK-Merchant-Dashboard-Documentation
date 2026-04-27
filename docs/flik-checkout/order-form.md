@@ -7,8 +7,7 @@ Create custom order forms to collect customer information and process orders eff
 The Order Form Builder enables you to:
 - Create custom order forms
 - Customize form fields
-- Set up form workflows
-- Generate unique form URLs/slugs
+- Generate unique form URLs
 - Collect customer information
 - Process orders seamlessly
 
@@ -21,18 +20,32 @@ The Order Form Builder enables you to:
 
 ![Order Form List Page](../../assets/screenshots/FLIK%20Checkout%20-%20Order%20Form%20Page/List%20Order%20Form%20Page.png)
 
-### List Features
-- **View all order forms** created in your store
-- **Search forms** by name or slug
-- **Filter forms** by status (Active, Inactive, Draft)
-- **Sort forms** by creation date
-- **Quick actions**: View, Edit, Duplicate, Delete, Share, Analytics
+### Order Form Table
+
+#### Table Columns
+- **Order Form**: Name of the order form
+- **Visitors**: Counter showing number of form visitors
+- **Page Views**: Counter showing number of page views
+- **Data Masuk**: Counter showing how many leads/submissions
+- **Paid**: Counter showing how many people paid
+- **Status**: Current form status
+- **Action**: Available actions for the form
 
 ### Form Status
 - **Draft**: Form created but not active
 - **Active**: Form published and accepting orders
 - **Inactive**: Form temporarily disabled
-- **Archived**: Form no longer in use
+
+### Form Actions
+
+Available actions from the Action column:
+
+- **Preview**: Preview form as customers see it
+- **Detail Order Form**: View form details and analytics
+- **Salin Link**: Copy shareable form link
+- **Ubah Order Form**: Edit form structure and fields
+- **Publish Ulang**: Republish form
+- **Hapus Order Form**: Delete form
 
 ## Creating an Order Form
 
@@ -42,181 +55,79 @@ The Order Form Builder enables you to:
 
 1. Click **Buat Order Form** or **Create Order Form** button
 2. Pop-up window opens with form configuration options
-3. Fill in form details as shown above
-
-### Step 2: Form Configuration Pop-up
-
-In the Create Order Form pop-up, enter:
+3. Fill in form details
 
 #### Form Details
 - **Form Name**: Display name for the form
 - **Form Slug/URL**: Unique identifier (auto-generated or custom)
-  - Example: `my-store-order-form` or `product-order-001`
-- **Form Description**: Brief description of the form
-- **Publish Status**: Draft or Published
 
-#### Form Settings
-- **Form Category**: Type of form (Order, Quote, Inquiry, etc.)
-- **Default Currency**: Payment currency
-- **Display Language**: Form language
-
-### Step 3: Order Form Creation Page
+### Step 2: Order Form Creation Page
 
 ![Order Form Creation Page](../../assets/screenshots/FLIK%20Checkout%20-%20Order%20Form%20Page/Order%20Form%20Creation%20Page.png)
 
-1. Review entered information
-2. Click **Selanjutnya** or **Next** button
-3. You'll see the main form editor above where you can:
-   - Add and customize form fields
-   - Configure form layout
-   - Set up payment options
-   - Preview and publish form
+The order form editor where you can configure all form sections.
 
-## Order Form Creation Page
+## Order Form Structure
 
-### Main Form Editor
+### Default Form Sections
 
-The creation page allows you to:
-- Add and customize form fields
-- Configure form layout
-- Set up payment options
-- Preview form
-- Publish form
+#### 1. Header Section
+- **Image Upload**: Upload image for hero section at top of form
 
-### Add Form Fields
+#### 2. Produk (Product) Section
+Product information fields:
+- **Nama Produk** (Product Name): Text field for product name
+- **Harga Produk** (Product Price): Numerical field for product price
+- **Harga Coret** (Strikethrough Price): Numerical field for original/strikethrough price
+- **Unggah Gambar** (Upload Image): Upload product image
+- **Deskripsi** (Description): Optional text area for product description
 
-#### Available Field Types
-1. **Text Input**: Single line text
-2. **Text Area**: Multi-line text
-3. **Email**: Email address field
-4. **Phone**: Phone number field
-5. **Number**: Numeric input
-6. **Dropdown**: Select from options
-7. **Radio Button**: Single choice
-8. **Checkbox**: Multiple selections
-9. **Date**: Date picker
-10. **File Upload**: Document upload
-11. **Product Selection**: Choose products
-12. **Quantity**: Item quantity
-13. **Price Input**: Pricing field
-14. **Custom HTML**: Custom content
+#### 3. Dimensi & Berat (Dimensions & Weight) Fields
+- **Panjang Barang (cm)** (Length): Numerical field in centimeters
+- **Lebar Barang (cm)** (Width): Numerical field in centimeters
+- **Tinggi Barang (cm)** (Height): Numerical field in centimeters
+- **Berat Barang (kg)** (Weight): Numerical field in kilograms
 
-#### Adding a Field
-1. Click **Add Field** or **Tambah Field**
-2. Select field type
-3. Configure field:
-   - **Field Label**: Display name
-   - **Field Name**: Internal identifier
-   - **Placeholder**: Help text
-   - **Required**: Mark as mandatory
-   - **Validation**: Set validation rules
-   - **Options**: Add choices (for dropdowns, radio, checkbox)
-4. Save field
-5. Field appears in form
+#### 4. Order Form Section
+Customer information fields that users need to fill:
+- **Nama** (Name): Text field for customer name
+- **Nomor WhatsApp** (WhatsApp Number): Phone number field
+- **Alamat** (Address): Text field for delivery address
 
-### Form Layout
+#### 5. Teks di Button Section
+- **Button Text**: Customize the text displayed on submit button
+- **Button Color**: Choose color for submit button
 
-#### Section Organization
-- **Add Section**: Organize fields in sections
-- **Section Title**: Header for group of fields
-- **Reorder Fields**: Drag to rearrange
-- **Group Related Fields**: Organize by category
+#### 6. Pengaturan Iklan (Advertising Settings) - Optional
+- **Facebook Pixel ID**: ID for Facebook Pixel tracking
+- **CAPI Token**: Conversion API token for Facebook
 
-#### Example Form Structure
-```
-Section 1: Customer Information
-├── Full Name (Required)
-├── Email Address (Required)
-├── Phone Number (Required)
-└── Address (Required)
+### Additional Sections You Can Add
 
-Section 2: Order Details
-├── Product Selection (Required)
-├── Quantity (Required)
-├── Special Instructions
-└── Additional Notes
+Merchants can add extra sections to customize the form further:
 
-Section 3: Billing
-├── Billing Address (Optional)
-├── Payment Method
-└── Terms & Conditions (Required)
-```
-
-### Form Customization
-
-#### Appearance Settings
-- **Form Title**: Large heading
-- **Form Description**: Introductory text
-- **Background Color**: Form background
-- **Button Color**: Submit button color
-- **Font Style**: Typography settings
-- **Logo**: Upload store logo
-- **Theme**: Light/Dark theme
-
-#### Advanced Settings
-- **Redirect URL**: Where to send after submission
-- **Thank You Message**: Custom success message
-- **Notification Email**: Receive form submissions
-- **CAPTCHA**: Anti-spam protection
-- **Analytics Tracking**: Track form performance
-
-### Payment Configuration
-
-#### Payment Options
-- **Enable Payments**: Accept payment via form
-- **Payment Methods**: Select payment gateways
-- **Currency**: Payment currency
-- **Tax Rate**: If applicable
-
-#### Product & Pricing
-- **Add Products**: Include products in form
-- **Dynamic Pricing**: Price based on selections
-- **Shipping Cost**: Include shipping fee
-- **Discount Code**: Allow discount codes
-
-### Preview Form
-
-1. Click **Preview** or **Pratinjau** button
-2. See how form appears to customers
-3. Test form fields
-4. Check responsive design
-5. Verify layout on mobile
-
-### Publish Form
-
-Once form is ready:
-1. Review all settings
-2. Click **Publish** or **Terbitkan** button
-3. Form becomes active
-4. Generate shareable link
-5. Form accepts submissions
+- **Teks** (Text): Add custom text/paragraphs
+- **Image**: Add images between sections
+- **Button**: Add additional buttons
+- **Testimoni** (Testimonials): Add customer testimonials
 
 ## Managing Order Forms
 
 ### View Form Details
 1. Click form from list
-2. See submission count
-3. View form analytics
+2. View form analytics
+3. Check submission data
 4. Access form settings
-5. Check submitted data
 
 ### Edit Form
-1. Click **Edit** on active form
-2. Modify form fields
-3. Update settings
-4. Change appearance
-5. Click **Save** to update
-
-### Duplicate Form
-1. Click **Duplicate** option
-2. New form created with copy of original
-3. Edit as needed
-4. Save as new form
+1. Click **Ubah Order Form** (Edit Order Form) from action menu
+2. Modify form sections
+3. Update fields
+4. Click **Save** to update
 
 ### Share Form
-Generate shareable link:
-1. Click **Share** button
-2. Copy form link/URL
+1. Click **Salin Link** (Copy Link) from action menu
+2. Copy form URL
 3. Share via:
    - Email
    - SMS
@@ -224,96 +135,79 @@ Generate shareable link:
    - Website
    - QR Code
 
-### Form Analytics
-View form performance:
-- **Total Views**: How many viewed form
-- **Total Submissions**: Orders received
-- **Conversion Rate**: View-to-submission ratio
-- **Average Time**: Time to complete form
-- **Abandonment Rate**: Incomplete submissions
-- **Top Entry Source**: Where visitors came from
+### Preview Form
+1. Click **Preview** from action menu
+2. See how form appears to customers
+3. Test form submission
+4. Check responsive design
 
-### View Submissions
-1. Click form from list
-2. Select **Submissions** or **Pengajuan**
-3. View list of orders
-4. See customer details
-5. Export submission data
-6. Download as CSV/Excel
+### Publish Form
+1. Click **Publish Ulang** (Republish) from action menu
+2. Form becomes active if in Draft status
+3. Form ready to accept submissions
 
-## Form Fields Best Practices
+### Delete Form
+1. Click **Hapus Order Form** (Delete Order Form) from action menu
+2. Confirm deletion
+3. Form removed from system
 
-### Customer Information Section
-- Required fields marked clearly
-- Logical order
-- Pre-fill when possible
-- Auto-suggest for common fields
+### View Form Details
+1. Click **Detail Order Form** from action menu
+2. View all form information
+3. See analytics and metrics
+4. Access submission data
 
-### Product Selection
-- Clear descriptions
-- Product images
-- Price display
-- Stock availability indicator
-- Quantity selector
+## Form Customization
 
-### Payment Information
-- Security assurance
-- Clear pricing
-- Discount code field
-- Payment method options
-- Terms checkbox
+### Organizing Sections
+- Drag sections to reorder
+- Add multiple instances of additional sections
+- Customize each section independently
 
-## Advanced Features
+### Field Configuration
+Each field in default sections can be customized:
+- Set required/optional
+- Add helper text
+- Set field validation
+- Configure placeholder text
 
-### Conditional Logic
-- Show/hide fields based on selections
-- Progressive disclosure
-- Smart form flows
-- Branching logic
+## Form Performance Tracking
 
-### Integration Options
-- Connect to CRM
-- Sync to inventory system
-- Webhook integration
-- Email notification setup
-- Zapier integration
-
-### Automation
-- Auto-reply emails
-- Confirmation messages
-- Assigned follow-up
-- Auto-publish forms
-- Scheduled form opening/closing
+Monitor from the list page:
+- **Visitors**: Total people who viewed form
+- **Page Views**: Total page view count
+- **Data Masuk**: Total submissions received
+- **Paid**: Total completed payments
 
 ## Best Practices
 
-1. ✅ Keep forms short and simple
-2. ✅ Ask only essential questions
-3. ✅ Use clear, simple language
-4. ✅ Group related fields
-5. ✅ Test before publishing
-6. ✅ Mobile optimize
-7. ✅ Track performance
-8. ✅ Update regularly
+1. ✅ Use clear product descriptions
+2. ✅ Upload high-quality product images
+3. ✅ Set accurate dimensions and weight
+4. ✅ Use compelling button text
+5. ✅ Test form before publishing
+6. ✅ Monitor form analytics
+7. ✅ Update forms regularly
+8. ✅ Optimize for mobile
 
 ## Troubleshooting
 
 | Issue | Solution |
 |-------|----------|
-| Form not saving | Check required fields, verify data |
+| Form not saving | Verify all required fields are filled |
 | Slug already exists | Use different slug name |
-| Field not showing | Check visibility settings, refresh |
-| Payment not working | Verify payment gateway setup |
-| Submissions not received | Check notification email settings |
+| Form not appearing | Check form status is Active |
+| Submissions not received | Verify form is published |
+| Link not working | Refresh page and copy link again |
 
 ## Tips
 
 - **Test thoroughly** before publishing
-- **Use templates** for common form types
-- **Monitor analytics** to optimize
-- **Collect only necessary** information
-- **Update forms regularly** based on feedback
-- **A/B test** different versions
+- **Use descriptive names** for forms
+- **Add all product details** for better conversions
+- **Customize button text** to match your message
+- **Monitor visitors vs conversions** to optimize
+- **Update product information** regularly
 
 ## Next Steps
 

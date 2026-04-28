@@ -92,29 +92,35 @@ In the first step, select:
 3. Click **Selanjutnya** or **Next**
 4. Proceed to Step 2
 
-## Pengiriman Manual (Manual Shipment Creation)
+## Creating a Shipment (Continued)
 
-When creating a shipment, you have two options:
+### Step 2: Choose Shipment Type
+
+When you click **Buat Pengiriman** from the list, you see this page with two options:
+
+![Create Pengiriman Step 2](../../assets/screenshots/FLIK%20Shipping%20-%20Pengiriman%20Page/Create%20Pengiriman%20Step%202.png)
+
+You have two choices:
+
+#### Path 1: Click "Membuat Order Manual" (Create Manual Order)
 
 ![Pengiriman Manual](../../assets/screenshots/pengiriman-manual.png)
 
-### Step 2a: Additional Fields (For Manual)
+The form expands below to show additional fields for shipment details:
 
-The form displays additional fields for shipment details:
-
-#### Pengiriman Details Section
+##### Pengiriman Details Section
 - **Detail Pengiriman** (Shipment Details): Main information
 - **Pilih Kurir** (Select Courier): Shipping carrier selection
 - **Pick Up**: Pickup scheduling
 - **Ringkasan** (Summary): Overview
 - **Pembayaran** (Payment): Payment options
 
-#### Pembayaran (Payment) Options
+##### Pembayaran (Payment) Options
 - **COD** (Cash on Delivery): Collect payment at delivery
 - **Non-COD**: Pre-paid orders
 - **Durasi Pencairan** (Settlement Period): Same day with 3% commission
 
-#### Pengiriman (Shipment Details)
+##### Pengiriman (Shipment Details)
 - **Nomor Telepon Pelanggan** (Customer Phone): Contact number
 - **Nama Pelanggan** (Customer Name): Recipient name
 - **Alamat Pelanggan** (Customer Address): Delivery address
@@ -124,15 +130,11 @@ The form displays additional fields for shipment details:
 - **Total Berat Barang** (Total Weight): in kg
 - **Isi Paket / Nama Produk** (Package Content/Product Name): Item description
 
-### Conditional Paths
+Fill in the order and recipient details shown above, then click **Selanjutnya** or **Next** to continue.
 
-#### Path 1: If Click "Membuat Order Manual" (Create Manual Order)
+#### Path 2: Click "Membuat Order Sekaligus" (Create Bulk Order)
 
-![Create Pengiriman Step 2](../../assets/screenshots/FLIK%20Shipping%20-%20Pengiriman%20Page/Create%20Pengiriman%20Step%202.png)
-
-Fill in the order and recipient details shown above, then continue to next step.
-
-#### Path 2: If Click "Membuat Order Sekaligus" (Create Bulk Order)
+A popup window opens showing the bulk upload interface:
 
 ![Create Pengiriman Step 2b](../../assets/screenshots/FLIK%20Shipping%20-%20Pengiriman%20Page/Create%20Pengiriman%20Step%202b%201.png)
 

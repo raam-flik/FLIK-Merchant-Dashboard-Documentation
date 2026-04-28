@@ -1,136 +1,134 @@
 # Leads Management
 
-Capture, track, and nurture potential customers through the sales pipeline.
+Track and manage sales leads with status updates, order form assignments, and sales team coordination.
 
 ## Overview
 
-Leads Management allows you to manage sales opportunities and track conversion.
+Leads Management allows you to view and manage potential customer leads with their contact information, status, and order form assignments.
 
-## Leads List Page
+## Leads Management Page
 
 ![Leads Management Page](../../assets/screenshots/Marketing%20-%20Leads%20Management/Leads%20Management%20Page.png)
 
-View all leads with status, scoring, and interaction history.
+View all leads with status, assigned order forms, and sales team information.
 
-### Lead Information
+### Search and Filter Section
 
-#### Basic Details
-- **Lead Name**: Prospect name
-- **Email**: Contact email
-- **Phone**: Contact number
-- **Company**: Business name
-- **Source**: How lead was acquired
-- **Date Added**: When added to system
+#### Search Bar
+- **Search field**: "Cari data leads (nama atau no handphone)" (Search leads by name or phone number)
+- Search icon to execute search
 
-#### Lead Status
-- **New**: Unqualified lead
-- **Contacted**: Initial outreach done
-- **Qualified**: Sales qualified lead
-- **Negotiating**: In active negotiation
-- **Closed**: Won or lost
-- **Archived**: No longer active
+#### Filter Dropdowns
+- **Status**: Filter by lead status (Tidak Merespon, Tidak Membayar, Berhasil)
+- **Order Form**: Filter by assigned order form
+- **Sales**: Filter by assigned sales team member
 
-#### Lead Scoring
-- **Score**: Numerical rating
-- **Quality**: High/Medium/Low
-- **Probability**: Likely to convert %
+#### Additional Actions
+- **Cek Ongkir** (Check Shipping): Button to check shipping costs
+- **Export** button: Download leads data
 
-### Lead Sources
+### Leads Table
 
-Track where leads come from:
-- **Website**: Web form submissions
-- **Email**: Email referrals
-- **Phone**: Direct inquiries
-- **Social Media**: Social platforms
-- **Events**: Trade shows, events
-- **Referral**: Customer referrals
-- **Other**: Other sources
+#### Table Columns
+- **Nama** (Name): Lead/prospect name (e.g., "tes", "feerr", "Ratih Ade Putri")
+- **No. Handphone** (Phone Number): Contact phone number with copy icon (e.g., "+6286655444445")
+- **Status**: Current lead status with colored badges:
+  - **Tidak Merespon** (Red badge - Not Responding)
+  - **Tidak Membayar** (Red badge - Not Paying)
+  - **Berhasil** (Green badge - Success)
+- **Order Form**: Assigned order/checkout form (e.g., "My Standard Special", "sepeda listrik")
+- **Sales Team**: Assigned sales representative, dropdown to change assignment (e.g., "Flik  Flik")
+- **Aksi** (Action): Three-dot menu for additional actions
 
-### Lead Management
+### Example Lead Data
 
-#### Track Interactions
-- **Emails Sent**: Communication history
-- **Calls Made**: Phone interactions
-- **Meetings**: Scheduled meetings
-- **Notes**: Internal conversations
-- **Status Updates**: Progress tracking
+**Lead 1: tes**
+- Phone: +6286655444445
+- Status: Tidak Merespon
+- Order Form: My Standard Special
+- Sales: Flik Flik
 
-#### Lead Actions
-- **Send Email**: Direct communication
-- **Schedule Call**: Call reminder
-- **Schedule Meeting**: Calendar booking
-- **Change Status**: Update lead status
-- **Add Note**: Internal notes
-- **Assign**: Assign to team member
-- **Archive**: Mark as completed
+**Lead 2: feerr**
+- Phone: +6208123123
+- Status: Tidak Membayar
+- Order Form: My Standard Special
+- Sales: Flik Flik
 
-### Lead Scoring
+**Lead 3: Ratih Ade Putri**
+- Phone: +6262814834343
+- Status: Tidak Merespon
+- Order Form: My Standard Special
+- Sales: Flik Flik
 
-Automatic scoring based on:
-- **Email Opens**: Engagement indicator
-- **Link Clicks**: Interest indicator
-- **Website Visits**: Activity tracking
-- **Form Submissions**: Qualification data
-- **Time Since Contact**: Recency
-- **Custom Rules**: Your criteria
+**Lead 4: Yono**
+- Phone: +6285251516 2
+- Status: Tidak Merespon
+- Order Form: My Standard Special
+- Sales: Flik Flik
 
-### Qualification
+**Lead 5: Nabiel**
+- Phone: +6289630381494
+- Status: Berhasil
+- Order Form: sepeda listrik
+- Sales: Flik Flik
 
-#### Qualifying Questions
-- Budget: Do they have budget?
-- Timeline: When do they decide?
-- Authority: Are they decision maker?
-- Need: Do they need solution?
-- Fit: Are they good fit?
+**Lead 6: Nabiel**
+- Phone: +6289630381494
+- Status: Tidak Membayar
+- Order Form: sepeda listrik
+- Sales: Flik Flik
 
-## Sales Pipeline
+**Lead 7: Fika**
+- Phone: +6281133311
+- Status: Tidak Membayar
+- Order Form: sepeda listrik
+- Sales: Flik Flik
 
-### Pipeline Stages
+**Lead 8: Nabiel**
+- Phone: +6289630381494
+- Status: Tidak Membayar
+- Order Form: My Standard Special
+- Sales: Flik Flik
 
-```
-New Leads → Contacted → Qualified → Negotiating → Closed-Won
-                                  ↘ Closed-Lost
-                                  ↘ Archived
-```
+### Lead Status Types
 
-### Moving Through Pipeline
+Based on the visible data, there are three lead statuses:
 
-1. **New**: Leads just added
-2. **Contacted**: Initial outreach sent
-3. **Qualified**: Met qualification criteria
-4. **Negotiating**: Discussing terms
-5. **Closed-Won**: Became customer
-6. **Closed-Lost**: Didn't convert
-7. **Archived**: No longer active
+- **Tidak Merespon** (Not Responding): Lead has not responded to outreach
+- **Tidak Membayar** (Not Paying): Lead has been contacted but has not made payment
+- **Berhasil** (Success): Lead has successfully converted
 
-## Lead Conversion
+### How to Use
 
-### Conversion Tracking
-- **Conversion Rate**: % of leads converted
-- **Conversion Time**: Days to convert
-- **Cost Per Lead**: Marketing spend
-- **Customer Value**: LTV of lead
+#### Search for Leads
+1. Enter lead name or phone number in search field
+2. Click search icon or press Enter
+3. View filtered leads in table
 
-### Nurture Campaigns
+#### Filter Leads
+1. Click **Status** dropdown to filter by response/payment status
+2. Click **Order Form** dropdown to filter by assigned order form
+3. Click **Sales** dropdown to filter by assigned sales team member
+4. Combine multiple filters as needed
 
-Automatically nurture leads:
-- Welcome email sequence
-- Educational content
-- Special offers
-- Limited-time deals
-- Reminder emails
+#### Manage Sales Assignment
+1. Click dropdown in **Sales Team** column
+2. Select different sales representative
+3. Updates assignment
 
-## Best Practices
+#### View Lead Actions
+1. Click three-dot menu (...) in **Aksi** column
+2. Access additional lead management options
 
-- Respond quickly to new leads
-- Qualify leads thoroughly
-- Follow up consistently
-- Keep notes detailed
-- Use scoring for priority
-- Track conversion path
-- Monitor pipeline health
-- Regular follow-ups
+#### Export Leads
+1. Click **Export** button
+2. Download leads data for external use
 
----
+#### Check Shipping Information
+1. Click **Cek Ongkir** button
+2. View shipping cost information
 
-[Back to Marketing](.)
+## Next Steps
+
+- Back to [Marketing Overview](.)
+- View [Customer Management](./customer.md)

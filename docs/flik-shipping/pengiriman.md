@@ -34,20 +34,16 @@ Pengiriman (Shipping) allows you to:
 - **Filter by Periode Transaksi** (Transaction Period): Filter by date range or transaction period
 - **Filter by Layanan** (Shipping Method): Filter by shipping method or courier service
 
-### Table Information
+### Table Columns
 
-The table displays the following columns:
+The table displays shipment information with the following columns:
 
 - **Nomor Batch** (Batch Number): Shipment batch/reference number
 - **Tanggal Dibuat** (Created Date): Date and time when shipment was created
 - **Alamat Pickup** (Pickup Address): Location address for courier pickup
 - **Layanan** (Shipping Method): Type of shipping service (e.g., SAP - Regular Service, NinjaExpress - Standard, SiCepat - Besok Sampai Tujuan, JNE - Regular, Paxel - Small Package, GoWork)
 - **Order COD** (Cash on Delivery Orders): Count and total value of COD orders
-- **Order Non COD** (Non-COD Orders): Count of non-COD orders
-- **Pembayaran** (Payment): Payment status and details
-- **Sumber** (Source): Source of the shipment
-- **Status** (Status): Current shipment status
-- **Aksi** (Action): Actions available based on current status (dynamic buttons)
+- **Order Non COD** (Non-COD Orders): Count of non-COD orders in the shipment
 
 ### Shipment Status
 - **Draft**: Shipment created but not processed

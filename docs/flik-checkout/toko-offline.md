@@ -44,15 +44,11 @@ Click **Tambah Kasir** or **Add Cashier** button to create new cashier:
 Fill in the following information:
 
 1. **Cashier Name**: Full name of cashier
-2. **Employee ID**: Unique employee identifier
-3. **Email Address**: Cashier email
-4. **Phone Number**: Contact number
-5. **PIN/Password**: Secure access code
-6. **Permissions Level**: 
-   - Full Access: All transaction types
-   - Limited: Restricted transactions
-   - View Only: Reporting only
-7. **Assignment**: Assign to specific shifts
+2. **Email Address**: Cashier email
+3. **Password**: Secure access password
+4. **Permissions Level**: 
+   - Admin: Full administrative access
+   - Cashier: Standard cashier access
 
 ### Step 2: Cashier Activation
 
@@ -95,7 +91,7 @@ Fill in the following information:
 
 1. ✅ Create unique cashier accounts for each person
 2. ✅ Set appropriate permission levels
-3. ✅ Keep contact information current
+3. ✅ Keep email information current
 4. ✅ Deactivate unused cashier accounts
 5. ✅ Regularly review active cashiers
 6. ✅ Reset passwords when needed
@@ -109,16 +105,16 @@ Fill in the following information:
 | Can't find cashier | Use search bar to find by name or email |
 | Cashier can't login | Reset password, verify credentials |
 | Wrong permissions | Edit cashier and update role |
-| Duplicate names | Use Employee ID to distinguish |
+| Duplicate names | Use email to distinguish |
 | Can't deactivate | Ensure cashier has no active shifts |
 
 ## Tips
 
 - **Search Function**: Use to quickly find cashiers by name or email
-- **Filter by Role**: Organize cashiers by permission level
+- **Filter by Role**: Organize cashiers by permission level (Admin or Cashier)
 - **Sort by Date**: View newest or oldest cashier accounts
 - **Regular Review**: Check active cashiers monthly
-- **Backup Info**: Keep records of all cashier details
+- **Password Security**: Reset passwords regularly for security
 
 ## Next Steps
 

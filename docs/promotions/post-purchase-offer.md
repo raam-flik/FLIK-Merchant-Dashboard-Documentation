@@ -40,8 +40,6 @@ The page displays three key metrics at the top:
   - Example: 0
 - **Ditolak** (Rejected): Number of times offer was rejected (with sort icon)
   - Example: 0
-
-#### Additional Columns (Missing in current doc)
 - **Konversi** (Conversion): Conversion rate or number for the offer
 - **Pendapatan** (Revenue): Revenue generated from the offer
 - **Status** (Status): Current status of the offer (Active/Inactive)

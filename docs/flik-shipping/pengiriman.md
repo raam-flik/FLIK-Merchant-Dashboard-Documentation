@@ -323,29 +323,6 @@ Edit only draft shipments:
 4. Check estimated delivery
 5. View delivery attempts
 
-## Shipment Notifications
-
-### Automatic Notifications
-- Order shipped
-- In transit
-- Out for delivery
-- Delivered
-- Delivery issues
-
-### Send Notifications
-1. Click shipment
-2. Click **Send Notification**
-3. Choose recipient (customer/merchant)
-4. Select notification type
-5. Send
-
-### Notification Templates
-Customize notification messages:
-1. Go to **Settings**
-2. Select **Notification Templates**
-3. Edit templates
-4. Save changes
-
 ## Shipping Settings
 
 Configure shipping preferences:
@@ -357,25 +334,6 @@ Configure shipping preferences:
 - **Insurance Options**: Enable/disable
 - **Signature Requirements**: Default setting
 - **Return Policy**: Return procedures
-
-## Reports & Analytics
-
-View shipping analytics:
-
-![Laporan & Analisis FLIK Shipping](../../assets/screenshots/Laporan%20&%20Analisis%20FLIK%20Shipping/Laporan%20&%20Analisis%20FLIK%20Shipping.png)
-
-- **Total Shipments**: Volume metrics
-- **Delivery Success Rate**: On-time delivery %
-- **Average Shipping Cost**: Cost metrics
-- **Carrier Performance**: Comparison
-- **Geographic Data**: By destination
-- **Shipping Trends**: Over time
-
-### Generate Reports
-1. Go to **Reports**
-2. Select date range
-3. Choose report type
-4. Download as PDF/Excel
 
 ## Best Practices
 
@@ -405,7 +363,6 @@ View shipping analytics:
 - **Monitor tracking** to address issues early
 - **Keep customer informed** with updates
 - **Compare carriers** for best rates
-- **Review analytics** monthly
 
 ## Next Steps
 

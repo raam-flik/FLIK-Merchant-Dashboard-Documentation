@@ -94,9 +94,45 @@ In the first step, select:
 
 ## Pengiriman Manual (Manual Shipment Creation)
 
-For single shipment creation, click **Membuat Order Manual** (Create Manual Order) to open the manual shipment form.
+When creating a shipment, you have two options:
 
-### Step 2a: Bulk Upload (For Bulk Orders)
+![Pengiriman Manual](../../assets/screenshots/pengiriman-manual.png)
+
+### Step 2a: Additional Fields (For Manual)
+
+The form displays additional fields for shipment details:
+
+#### Pengiriman Details Section
+- **Detail Pengiriman** (Shipment Details): Main information
+- **Pilih Kurir** (Select Courier): Shipping carrier selection
+- **Pick Up**: Pickup scheduling
+- **Ringkasan** (Summary): Overview
+- **Pembayaran** (Payment): Payment options
+
+#### Pembayaran (Payment) Options
+- **COD** (Cash on Delivery): Collect payment at delivery
+- **Non-COD**: Pre-paid orders
+- **Durasi Pencairan** (Settlement Period): Same day with 3% commission
+
+#### Pengiriman (Shipment Details)
+- **Nomor Telepon Pelanggan** (Customer Phone): Contact number
+- **Nama Pelanggan** (Customer Name): Recipient name
+- **Alamat Pelanggan** (Customer Address): Delivery address
+- **Panjang Barang** (Length): in cm
+- **Lebar Barang** (Width): in cm
+- **Tinggi Barang** (Height): in cm
+- **Total Berat Barang** (Total Weight): in kg
+- **Isi Paket / Nama Produk** (Package Content/Product Name): Item description
+
+### Conditional Paths
+
+#### Path 1: If Click "Membuat Order Manual" (Create Manual Order)
+
+![Create Pengiriman Step 2](../../assets/screenshots/FLIK%20Shipping%20-%20Pengiriman%20Page/Create%20Pengiriman%20Step%202.png)
+
+Fill in the order and recipient details shown above, then continue to next step.
+
+#### Path 2: If Click "Membuat Order Sekaligus" (Create Bulk Order)
 
 ![Create Pengiriman Step 2b](../../assets/screenshots/FLIK%20Shipping%20-%20Pengiriman%20Page/Create%20Pengiriman%20Step%202b%201.png)
 
@@ -116,38 +152,7 @@ ORD-002 | Jane Smith | jane@email.com | 085678901 | Jl Side 2 | Bandung | Jawa B
 4. System validates data
 5. Click **Next** to proceed
 
-### Step 2b: Order Details Form (Additional Fields)
-
-![Pengiriman Manual](../../assets/screenshots/pengiriman-manual.png)
-
-This shows the manual shipment creation form with additional fields for single shipment:
-
-#### Additional Fields
-- **Package Dimensions**: Length, Width, Height (cm)
-- **Package Weight**: Total weight (kg)
-- **Package Type**: Box, Envelope, Parcel, etc.
-- **Item Description**: What's inside
-- **Insurance**: Add shipping insurance
-- **Signature Required**: Require recipient signature
-- **Fragile**: Mark as fragile
-- **Perishable**: Mark if perishable
-
-After filling all fields, click **Selanjutnya** or **Next** to proceed to Step 3.
-
-### Step 3: Additional Fields (For Manual)
-
-![Create Pengiriman Step 2](../../assets/screenshots/FLIK%20Shipping%20-%20Pengiriman%20Page/Create%20Pengiriman%20Step%202.png)
-
-Scroll down to see and fill in additional shipping information for manual single shipments:
-
-#### Remaining Fields
-- **Order Information**: Order details
-- **Recipient Address**: Delivery location
-- **Package Details**: Dimensions and weight
-
-After filling all fields, click **Selanjutnya** or **Next** to proceed to Step 4.
-
-### Step 4: Select Shipping Carrier
+### Step 3: Select Shipping Carrier
 
 ![Create Pengiriman Step 3](../../assets/screenshots/FLIK%20Shipping%20-%20Pengiriman%20Page/Create%20Pengiriman%20Step%203.png)
 
@@ -186,9 +191,9 @@ Click **Detail** or **Rincian** to see the cost breakdown shown above:
 1. Select carrier and method
 2. Review shipping cost
 3. Click **Selanjutnya** or **Next**
-4. Proceed to Step 6
+4. Proceed to Step 4
 
-### Step 6: Schedule Pickup Time
+### Step 4: Schedule Pickup Time
 
 ![Create Pengiriman Step 4a](../../assets/screenshots/FLIK%20Shipping%20-%20Pengiriman%20Page/Create%20Pengiriman%20Step%204a.png)
 
@@ -211,7 +216,7 @@ Pop-up shows: **Pilih Waktu Pick Up** (Choose Pickup Time)
 4. Confirm selection
 5. Click **Selanjutnya** or **Next**
 
-### Step 7: Pickup Confirmation
+### Step 5: Pickup Confirmation
 
 ![Create Pengiriman Step 4b](../../assets/screenshots/FLIK%20Shipping%20-%20Pengiriman%20Page/Create%20Pengiriman%20Step%204b.png)
 
@@ -227,7 +232,7 @@ Review pickup details shown above:
 2. Confirm packages ready for pickup
 3. Click **Selanjutnya** or **Next**
 
-### Step 8: Shipment Summary
+### Step 6: Shipment Summary
 
 ![Create Pengiriman Step 5](../../assets/screenshots/FLIK%20Shipping%20-%20Pengiriman%20Page/Create%20Pengiriman%20Step%205.png)
 
@@ -245,9 +250,9 @@ Review complete shipment information displayed above:
 1. Review all information
 2. Verify accuracy
 3. Click **Selanjutnya** or **Next**
-4. Proceed to Step 9 for final confirmation
+4. Proceed to Step 7 for final confirmation
 
-### Step 9: Final Confirmation
+### Step 7: Final Confirmation
 
 ![Create Pengiriman Step 6](../../assets/screenshots/FLIK%20Shipping%20-%20Pengiriman%20Page/Create%20Pengiriman%20Step%206.png)
 

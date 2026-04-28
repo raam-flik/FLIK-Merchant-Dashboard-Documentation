@@ -106,6 +106,9 @@ Complete history of all payment transactions with dates, amounts, and references
 The MCA application process is a 5-step self-service wizard designed with "Save & Resume" capabilities:
 
 ### Step 0: Account Registration (Entry Point)
+
+![Step 0](../../assets/screenshots/Merchant%20Cash%20Advance/1.png)
+
 - **Nama Merchant**: Official business name
 - **Nama Lengkap**: Full name of director/PIC
 - **Pendapatan per Bulan**: Monthly revenue bracket (used to show potential funding)
@@ -115,6 +118,9 @@ The MCA application process is a 5-step self-service wizard designed with "Save 
 - **Terms & Conditions**: Must accept FLIK policies
 
 ### Step 1: Funding Request
+
+![Step 1](../../assets/screenshots/Merchant%20Cash%20Advance/2.png)
+
 - **Tipe Bisnis**: Personal or Perusahaan (Company)
 - **Alamat Perusahaan**: Business location details
 - **Requested Amount (IDR)**: Total funding sought
@@ -125,6 +131,9 @@ The MCA application process is a 5-step self-service wizard designed with "Save 
 - **Save & Exit**: Can save draft to consult stakeholders
 
 ### Step 2: Identity Verification
+
+![Step 2](../../assets/screenshots/Merchant%20Cash%20Advance/3.png)
+
 - **NIK Direktur**: Director's national ID number (16 digits)
 - **KTP Direktur**: Director's ID card image (JPG, JPEG, PNG | Max 5MB)
 - **NPWP Direktur**: Tax ID image (hidden if Personal business type)
@@ -133,6 +142,8 @@ The MCA application process is a 5-step self-service wizard designed with "Save 
 - **Automated KYC Check**: System validates NIK against KTP OCR and FLIK account data
 
 ### Step 3: Channel Integration & Revenue Validation
+
+![Step 3](../../assets/screenshots/Merchant%20Cash%20Advance/5.png)
 
 Merchants can connect revenue sources through two integration paths:
 
@@ -162,6 +173,9 @@ For each channel type, upload:
 - Ad report files
 
 ### Step 4: Legal Documents
+
+![Step 4](../../assets/screenshots/Merchant%20Cash%20Advance/6.png)
+
 - **NPWP PT / Pribadi**: Tax ID number
 - **NPWP Upload**: Tax ID image (PDF | Max 10MB)
 - **AKTA**: Corporate deed and amendments (PDF | Max 10MB)
@@ -169,6 +183,9 @@ For each channel type, upload:
 - **NIB**: Business Identification Number (PDF | Max 10MB)
 
 ### Step 5: Financial Documents
+
+![Step 5](../../assets/screenshots/Merchant%20Cash%20Advance/7.png)
+
 - **Bank Statement**: Last 6 months of official bank records (PDF | Max 10MB)
 - **Disbursement Details**:
   - Bank name selection

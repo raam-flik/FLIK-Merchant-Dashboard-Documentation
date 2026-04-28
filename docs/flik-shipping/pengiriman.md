@@ -24,10 +24,20 @@ Pengiriman (Shipping) allows you to:
 3. View list of all shipments as shown above
 
 ### List Features
-- **View all shipments** from your warehouse
+
+#### Search
 - **Search shipments** by order number, tracking, or customer
-- **Filter shipments** by status (Pending, Shipped, Delivered, Returned, Cancelled)
+
+#### Filters
+- **Filter by Status**: Filter by shipment status (Pending, Shipped, Delivered, Returned, Cancelled, etc.)
+- **Filter by Warehouse**: Filter shipments by warehouse location
+- **Filter by Periode Transaksi** (Transaction Period): Filter by date range or transaction period
+- **Filter by Layanan** (Shipping Method): Filter by shipping method or courier service
+
+#### Sort
 - **Sort shipments** by date or tracking number
+
+#### Actions
 - **Quick actions**: View details, Print label, Edit, Cancel, Track
 
 ### Shipment Status

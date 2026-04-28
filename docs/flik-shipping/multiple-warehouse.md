@@ -32,11 +32,30 @@ Multiple Warehouse Shipping allows you to:
 3. View list of shipments as shown above
 
 ### List Features
-- **View all shipments** from all warehouses
-- **Filter by warehouse**: Select specific location
-- **Search shipments**: By order, tracking, customer
-- **Status filtering**: Pending, Shipped, Delivered, etc.
-- **Quick actions**: View, Edit, Track, Cancel
+
+#### Search
+- **Search shipments** by order data
+
+#### Filters
+- **Filter by Warehouse**: Filter shipments by warehouse location
+- **Filter by Periode Transaksi** (Transaction Period): Filter by date range or transaction period
+- **Filter by Layanan** (Shipping Method): Filter by shipping method or courier service
+- **Filter by Status**: Filter by shipment status
+
+### Table Columns
+
+The table displays shipment information with the following columns:
+
+- **Nomor Batch** (Batch Number): Shipment batch/reference number
+- **Tanggal Dibuat** (Created Date): Date and time when shipment was created
+- **Alamat Pickup** (Pickup Address): Location address for courier pickup
+- **Layanan** (Shipping Method): Type of shipping service (e.g., SAP - Regular Service, NinjaExpress - Standard, SiCepat - Besok Sampai Tujuan, JNE - Regular, Paxel - Small Package, GoWork)
+- **Order COD** (Cash on Delivery Orders): Count and total value of COD orders
+- **Order Non COD** (Non-COD Orders): Count of non-COD orders in the shipment
+- **Pembayaran** (Payment): Payment status and details
+- **Sumber** (Source): Source of the shipment
+- **Status** (Status): Current shipment status
+- **Aksi** (Action): Actions available based on current status (dynamic buttons)
 
 ## Creating a Multi-Warehouse Shipment
 
@@ -279,24 +298,6 @@ Configure in **Settings**:
 - **Warehouse priority** order
 - **Inventory sync** frequency
 - **Operating hours** by warehouse
-
-## Reports & Analytics
-
-### Multi-Warehouse Reports
-Access comprehensive reports:
-- Shipments by warehouse
-- Cost analysis by location
-- Delivery performance by warehouse
-- Warehouse utilization
-- Geographic data
-- Trend analysis
-
-### Generate Reports
-1. Go to **Reports**
-2. Select date range
-3. Choose warehouse(s)
-4. Select report type
-5. Download as PDF/Excel
 
 ## Best Practices
 

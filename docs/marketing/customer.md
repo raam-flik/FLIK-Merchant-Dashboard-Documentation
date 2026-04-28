@@ -43,6 +43,11 @@ The page displays four key metrics at the top:
 - **Shopper Group** (Customer Group): Customer category or group (shows "-" if not assigned)
 - **Transaksi Terakhir** (Last Transaction): Date of most recent purchase (shows "-" if none)
 - **Total Belanja** (Total Spent): Cumulative spending amount (e.g., "Rp 0", "Rp 100.000")
+- **Lokasi (Kota)** (Location/City): Customer's city/location information
+- **Merchant Rewards**: Rewards earned from merchant promotions
+- **FLIK Rewards**: Rewards earned from FLIK platform
+- **Total Completed Order**: Total number of completed orders by customer
+- **Link Checkout (salin link)** (Checkout Link - Copy Link): Shareable checkout link with copy functionality
 
 ### Customer Information Displayed
 
@@ -52,6 +57,11 @@ For each customer row:
 - Group assignment (if any)
 - Last transaction date
 - Total amount spent
+- Customer location/city
+- Merchant rewards balance
+- FLIK rewards balance
+- Total number of completed orders
+- Shareable checkout link (copy functionality)
 - Green checkmark icon next to phone number
 
 ## Customer List Features

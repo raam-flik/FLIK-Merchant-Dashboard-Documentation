@@ -92,6 +92,14 @@ In the first step, select:
 3. Click **Selanjutnya** or **Next**
 4. Proceed to Step 2
 
+## Pengiriman Manual (Manual Shipment Creation)
+
+For single shipment creation, follow the manual shipment workflow:
+
+![Pengiriman Manual](../../assets/screenshots/pengiriman-manual.png)
+
+This shows the manual shipment creation form with all required fields for a single shipment.
+
 ### Step 2: Order Details (Manual)
 
 ![Create Pengiriman Step 2](../../assets/screenshots/FLIK%20Shipping%20-%20Pengiriman%20Page/Create%20Pengiriman%20Step%202.png)

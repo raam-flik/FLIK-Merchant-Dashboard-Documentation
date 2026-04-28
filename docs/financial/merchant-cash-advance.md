@@ -4,171 +4,108 @@ Access business funding through FLIK's Merchant Cash Advance (MCA) program.
 
 ## Overview
 
-Merchant Cash Advance allows eligible merchants to borrow funds for business growth and operations with flexible repayment terms.
+Merchant Cash Advance allows merchants to access funding based on their business performance.
 
 ## MCA List Page
 
-![List of Merchant Cash Advance](../../assets/screenshots/Merchant%20Cash%20Advance/List%20of%20Merchant%20Cash%20Advance.png)
+![List of Merchant Cash Advance](../../assets/screenshots/Merchant%20Cash%20Advance/List%20Of%20Merchant%20Cash%20Advance.png)
 
-View all cash advance applications and funding status.
+### List Features
 
-### Application Status
+#### Search
+- **Search field**: "Cari nama project" (Search project name)
 
-Statuses shown:
-- **Draft**: Application started
-- **Submitted**: Awaiting review
-- **Under Review**: Being processed
-- **Approved**: Ready to disburse
-- **Funded**: Money received
-- **Active**: Repayment in progress
-- **Completed**: Fully repaid
-- **Rejected**: Application denied
+#### Button
+- **Ajukan Pendanaan** (Apply for Funding): Click to start new MCA application
 
-## Applying for MCA
+### Table Columns
 
-### Step 1-9 Process
+The table displays the following columns:
 
-![1](../../assets/screenshots/Merchant%20Cash%20Advance/1.png) through `9.png`
+- **Project**: Project/MCA reference number (e.g., MCA1192011910)
+- **Status**: Current status of the MCA project with colored badges:
+  - **Live** (Blue badge)
+  - **Registrasi Belum Selesai** (Yellow badge - Registration Not Complete)
+  - **Sedang Dalam Peninjauan** (Red badge - Under Review)
+- **Pendanaan** (Funding Amount): Amount approved (e.g., Rp350.000.000)
+- **Yang Perlu Dibayar** (Amount to Pay): Amount still needed to be paid
 
-Complete multi-step application process:
+### Example Data
 
-#### Step 1: Application Start
-- Begin application
-- Confirm eligibility
-- Accept terms
-- Proceed to next step
+**Project 1: MCA1192011910**
+- Status: Live
+- Pendanaan: Rp350.000.000
+- Yang Perlu Dibayar: Rp14.320.000
 
-#### Step 2-5: Business Information
-Provide details:
-- Business registration
-- Tax ID
-- Business address
-- Business type
-- Operating duration
-- Average monthly sales
-- Business documents
+**Project 2: MCA1192011911**
+- Status: Registrasi Belum Selesai
+- Pendanaan: -
+- Yang Perlu Dibayar: -
 
-#### Step 6-7: Financial Information
-Upload documents:
-- Bank statements (3-6 months)
-- Tax returns
-- Business registration
-- Financial statements
-- Proof of income
+**Project 3: MCA1192011910**
+- Status: Sedang Dalam Peninjauan
+- Pendanaan: -
+- Yang Perlu Dibayar: -
 
-#### Step 8-9: Review & Submission
-- Review all information
-- Confirm accuracy
-- Accept MCA terms
-- Submit application
-- Receive reference number
+### Pagination
 
-## Funding Details
+- Showing 1-10 of 1000
+- Page navigation: 1, 2, 3, ..., 100
+- Previous/Next buttons
 
-### Loan Amount
-- **Amount Available**: Based on sales
-- **Loan Term**: Duration of advance
-- **Repayment Period**: Months to repay
-- **Interest Rate**: Cost of borrowing
-- **Total Repayment**: Amount owed
-
-### Repayment Options
-- **Daily Deduction**: Sales-based repayment
-- **Fixed Payment**: Monthly installment
-- **Flexible Terms**: Custom arrangement
-
-### Fees & Costs
-- **Origination Fee**: Application fee
-- **Service Fee**: Monthly fee
-- **Prepayment Option**: Early repayment
-- **Late Fee**: Missed payment fee
-
-## Viewing Details
+## MCA Detail Page
 
 ![Detail of Merchant Cash Advance](../../assets/screenshots/Merchant%20Cash%20Advance/Detail%20of%20Merchant%20Cash%20Advance.png)
 
-Access detailed funding information:
-- **Loan Details**: Amount and terms
-- **Disbursement Status**: Fund transfer
-- **Repayment Schedule**: Payment dates
-- **Balance Owed**: Outstanding amount
-- **Payment History**: Past payments
-- **Contact Info**: Lender details
+### Summary Information
 
-### Payment Management
+Four key metrics displayed at the top:
 
-- **View Schedule**: Repayment timeline
-- **Make Payment**: Pay early
-- **Download Paperwork**: Legal documents
-- **Request Extension**: Modify terms
-- **Contact Support**: Inquiries
+- **Pendanaan** (Funding): Total funding amount (e.g., Rp125.000.000)
+- **Yang Perlu Dibayar** (Amount to Pay): Remaining payment (e.g., Rp140.000.000)
+- **Sisa Pembayaran** (Payment Remaining): Remaining balance (e.g., Rp95.300.000)
+- **Periode** (Period): Duration (e.g., 36 Hari lagi - 36 Days remaining)
 
-## Eligibility Requirements
+### Payment History Table
 
-To qualify for MCA:
-- **Active Store**: 6+ months operation
-- **Sales Volume**: Minimum monthly sales
-- **Bank Account**: Business account
-- **Tax Compliance**: Current taxes
-- **No Delinquency**: Payment history
-- **Credit Score**: Minimum score required
+#### Search & Filter
+- **Search field**: "Cari reference" (Search reference)
+- **Filter button**: Filter payment records
+- **Export button**: Export data
 
-## Application Tips
+#### Table Columns
 
-- **Accurate Information**: Double-check details
-- **Complete Documents**: All required files
-- **Recent Financials**: Current statements
-- **Good Standing**: Pay past obligations
-- **Professional Presentation**: Clean application
-- **Contact Information**: Keep updated
+- **Tanggal Pembelian** (Purchase Date): Date of transaction (e.g., Dec 7, 2019 23:26)
+- **Amount**: Payment amount (e.g., Rp290.000.000)
+- **Reference**: Reference number (e.g., 05122024-JDSKEL-1)
 
-## Loan Management
+#### Payment Records
 
-### Track Your Loan
+The table shows all payment transactions with dates, amounts, and references.
 
-Monitor loan status:
-- **Application Status**: Current stage
-- **Fund Availability**: When funding comes
-- **Payment Tracking**: All payments made
-- **Balance Overview**: Remaining amount
-- **Timeline**: Key dates
+## How to Use
 
-### Repayment
+### View MCA List
+1. Navigate to **Pendanaan** > **Merchant Cash Advance**
+2. See all your MCA projects
+3. View status and funding amounts
+4. Click on a project to see details
 
-- **Schedule**: Know payment dates
-- **Amount**: Know payment size
-- **Method**: How payments deducted
-- **Early Payoff**: Option available
-- **Grace Period**: Policy terms
+### Apply for New Funding
+1. Click **Ajukan Pendanaan** button
+2. Complete the application process
+3. Follow steps 1-9 (not shown in current screenshots)
+4. Submit application
 
-## FAQ & Support
+### View Payment History
+1. Click on an MCA project from the list
+2. Go to the Detail page
+3. See payment summary at the top
+4. View complete payment history in table below
+5. Use search to find specific transactions
+6. Export data if needed
 
-### Common Questions
-- **How long does approval take?**: 5-10 business days typically
-- **Can I pay early?**: Yes, often with incentive
-- **What if I miss payment?**: Late fee applies, discuss options
-- **Can I increase loan?**: After repayment possible
-- **What is interest rate?**: Varies by profile
+## Next Steps
 
-### Getting Help
-
-- **Contact Support**: Via dashboard
-- **Email Support**: support@flik.co.id
-- **Phone Support**: Customer service
-- **FAQ Section**: Common questions
-- **Documentation**: Loan documents
-
-## Best Practices
-
-- Only borrow what you need
-- Understand all terms
-- Plan repayment carefully
-- Use funds wisely
-- Maintain good payment history
-- Track cash flow impact
-- Communicate with lender
-- Document everything
-
----
-
-[Back to Financial](.)
+- Back to [Financial Overview](.)
+- View [Saldo (Balance)](./saldo.md)

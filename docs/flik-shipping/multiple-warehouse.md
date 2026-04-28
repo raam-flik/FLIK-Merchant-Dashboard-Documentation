@@ -271,18 +271,6 @@ Edit only uncommitted shipments:
 3. Modify details
 4. Save changes
 
-### Bulk Actions
-- **Bulk Print Labels**: Print multiple at once
-- **Bulk Notifications**: Send to multiple customers
-- **Bulk Cancel**: Cancel multiple shipments
-- **Bulk Status Update**: Update multiple at once
-
-### Track Multiple Shipments
-1. Select multiple shipments
-2. Click **Track All**
-3. View tracking for all
-4. Sort by status or warehouse
-
 ## Warehouse Optimization
 
 ### Warehouse Selection

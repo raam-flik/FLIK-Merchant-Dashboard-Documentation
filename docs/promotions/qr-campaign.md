@@ -33,6 +33,7 @@ QR Campaign allows you to generate trackable QR codes linked to promotions, with
 - **Successful Claims**: Number of successful claims from scans
 - **Created At**: Campaign creation date and time
 - **Action**: 
+  - **Print** button to print the QR campaign
   - **Detail** button to view campaign details
   - **Hapus** (Delete) button to delete the campaign
 
@@ -109,6 +110,11 @@ QR Campaign allows you to generate trackable QR codes linked to promotions, with
 - **Tidak Aktif** (Inactive): QR campaign is disabled and not accepting scans
 
 ### Campaign Actions
+
+#### Print Action
+Click the Print button to:
+- Print the QR code for the campaign
+- Get a printable version for offline distribution
 
 #### Detail Action
 Click the Detail button to:

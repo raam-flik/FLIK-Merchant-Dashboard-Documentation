@@ -271,22 +271,6 @@ Edit only uncommitted shipments:
 3. Modify details
 4. Save changes
 
-## Warehouse Optimization
-
-### Warehouse Selection
-System can auto-select optimal warehouse based on:
-- **Closest to customer**: Minimize delivery time
-- **Best inventory**: Item availability
-- **Lowest cost**: Cost optimization
-- **Smallest load**: Balance warehouse workload
-
-### Warehouse Settings
-Configure in **Settings**:
-- **Default warehouse** for new shipments
-- **Warehouse priority** order
-- **Inventory sync** frequency
-- **Operating hours** by warehouse
-
 ## Best Practices
 
 1. ✅ Keep inventory synced

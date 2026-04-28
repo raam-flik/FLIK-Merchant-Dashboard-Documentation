@@ -49,21 +49,6 @@ The page displays four key metrics at the top:
 - **Total Completed Order**: Total number of completed orders by customer
 - **Link Checkout (salin link)** (Checkout Link - Copy Link): Shareable checkout link with copy functionality
 
-### Customer Information Displayed
-
-For each customer row:
-- Customer name
-- Phone number (clickable, can be copied)
-- Group assignment (if any)
-- Last transaction date
-- Total amount spent
-- Customer location/city
-- Merchant rewards balance
-- FLIK rewards balance
-- Total number of completed orders
-- Shareable checkout link (copy functionality)
-- Green checkmark icon next to phone number
-
 ## Customer List Features
 
 ### View Customer Details

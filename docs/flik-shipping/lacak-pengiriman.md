@@ -1,351 +1,93 @@
 # Lacak Pengiriman (Shipment Tracking)
 
-Track and monitor shipments in real-time. Check delivery status, location, and estimated arrival for all active shipments.
+Track and monitor shipments using tracking numbers. Check real-time delivery status, location, and journey details.
 
 ## Overview
 
 Lacak Pengiriman (Shipment Tracking) allows you to:
-- Check real-time shipment status
-- View package location
-- Estimate delivery time
-- Communicate with customers
-- Monitor delivery attempts
-- Resolve delivery issues
+- Search shipments by tracking number (Nomor AWB)
+- View detailed shipment information
+- Track real-time delivery status
+- See complete delivery timeline
+- View photos and updates
 
 ## Accessing Shipment Tracking
 
 1. Navigate to **FLIK Shipping** from main menu
 2. Select **Lacak Pengiriman** or **Track Shipment**
-3. Use search or tracking features
+3. Enter tracking number to search
 
-## Tracking Methods
-
-### Method 1: Search by Tracking Number
+## Empty State (Initial Search)
 
 ![Cek Resi Empty State](../../assets/screenshots/FLIK%20Shipping%20-%20Lacak%20Pengiriman/Cek%20Resi%20Empty%20State.png)
 
-1. Click **Cek Resi** or **Check Tracking** 
-2. Enter tracking number in the form shown above
-3. Click **Search** or **Cari**
-4. View tracking results
+### Search Interface
+- **Nomor AWB** (Tracking Number): Input field for tracking number
+- **Helper text**: "Anda bisa memasukkan lebih dari satu nomor AWB, pisahkan dengan koma. Contoh: 012345678912, 012345678913"
+- **Cek AWB button**: Click to search for tracking information
 
-### Method 2: Search by Order Number
-1. Enter order number
-2. System finds associated tracking
-3. Display tracking information
-
-### Method 3: From Dashboard
-1. Go to **Shipping List**
-2. Click **Track** on any shipment
-3. Open tracking details
-
-## Tracking Results
-
-### Filled State (Tracking Found)
+## Filled State (Tracking Results)
 
 ![Cek Resi Filled State](../../assets/screenshots/FLIK%20Shipping%20-%20Lacak%20Pengiriman/Cek%20Resi%20Filled%20State.png)
 
-When tracking information is found, the interface above displays all the tracking details:
+When tracking results are found, the page displays:
 
-#### Tracking Information
-- **Tracking Number**: Resi number
-- **Carrier**: Shipping company
-- **Sender**: Your store
-- **Recipient**: Customer name and address
-- **Status**: Current shipment status
+### Detail Pengiriman AWB (Shipment Details Section)
 
-#### Status Timeline
-View chronological updates:
+#### Key Information Fields
+- **Status**: Current status (e.g., Sudah Diterima)
+- **Nomor Resi** (Tracking Number): e.g., WYB-1710404285248
+- **Kurir** (Courier): e.g., SiCepat
+- **Layanan** (Shipping Method): e.g., REG
 
-1. **Order Placed**
-   - Date and time
-   - Order number
-   - Initial status
+#### Additional Details
+- **Tanggal Kirim** (Ship Date): e.g., 10 Sep, 2024 - 14:27 WIB
+- **Pengirim** (Sender): e.g., Randy Orton
+- **Metode Pembayaran** (Payment Method): e.g., COD
+- **Penerima** (Recipient): e.g., Joko Wiwok Detok
+- **No HP Penerima** (Recipient Phone): e.g., +6281234567890
+- **Dikirim ke** (Shipped To): e.g., FlekHaus, BSD
 
-2. **Shipment Created**
-   - Shipment number
-   - Warehouse location
-   - Ready for pickup
+### Riwayat Perjalanan (Delivery Journey Timeline)
 
-3. **Picked Up**
-   - Date and time
-   - Courier confirmation
-   - Initial transit
+The page displays a vertical timeline with:
 
-4. **In Transit**
-   - Current location
-   - Last update time
-   - Transit progress
+#### Timeline Columns
+- **Tanggal** (Date): Date and time of each event
+- **Keterangan** (Description): Status update description (e.g., "Package has been delivered to Daffa")
+- **Foto & Tanda Tangan** (Photo & Signature): Photo evidence of delivery
 
-5. **Out for Delivery**
-   - Final location hub
-   - Estimated delivery date
-   - Delivery window
+#### Timeline Events
+Each entry shows:
+- Timestamp (Date and time)
+- Status message describing the shipment journey
+- Photo attached (if available)
+- Blue active indicator (●) for current/latest status
+- Grey inactive indicators (○) for past events
 
-6. **Delivered**
-   - Delivery date and time
-   - Recipient signature
-   - Delivery confirmation
-   - Final location
+#### Example Events Shown
+- Package has been delivered to Daffa
+- Package will be delivered to your address by
+- Package has been arrived at CIBINONG Drop Point
+- Package will be departed to CIBINONG Drop Point
+- Package has been arrived at BOGOR Transit Center
+- Package will be departed to BOGOR Transit Center
+- Package has been arrived at JAKARTA Transit Center
+- Package has been arrived at JAKARTA Drop Center
+- Package will be departed to JAKARTA Drop Point
+- Package has been processed at JAKARTA Drop Point
 
-7. **Failed Delivery** (if applicable)
-   - Failure reason
-   - Delivery attempt details
-   - Next attempt scheduled
+### Additional Sections (Expandable)
 
-### Empty State (No Tracking Found)
+- **Detail Pengiriman AWB [Number]**: Expandable section for additional shipment details
 
-When tracking not found, you'll see the empty search state shown earlier in Method 1.
+## Search Instructions
 
-#### Possible Reasons
-- Tracking number not yet active
-- Tracking number incorrect
-- Shipment not yet picked up
-- Tracking number expired
-
-#### Actions
-- **Verify tracking number**: Check if entered correctly
-- **Wait 24 hours**: System needs time to sync
-- **Contact support**: If still not found
-- **Check email**: Tracking should be in confirmation email
-
-## Tracking Details
-
-### Full Tracking Timeline
-Complete update history:
-- All status changes
-- Timestamps for each update
-- Location information
-- Handler/Courier notes
-- Photo evidence (if available)
-
-### Current Status
-Most recent update:
-- **Status**: Current shipment state
-- **Last Updated**: Time of last update
-- **Location**: Current location
-- **Next Step**: What happens next
-- **Estimated Arrival**: Expected delivery date
-
-### Delivery Information
-- **Estimated Delivery Date**: Predicted arrival
-- **Delivery Window**: Time window
-- **Delivery Address**: Final destination
-- **Special Instructions**: Any notes
-- **Signature Required**: Yes/No
-
-### Carrier Information
-- **Carrier Name**: Shipping company
-- **Carrier Contact**: Customer service
-- **Carrier Website**: For more info
-- **Carrier Rating**: Service rating
-
-## Advanced Tracking Features
-
-### Real-Time Updates
-- Automatic push notifications
-- SMS updates (if enabled)
-- Email notifications
-- In-app alerts
-
-### Tracking History
-Complete shipment history:
-- All events recorded
-- Timestamps precise
-- Location coordinates
-- Status progression
-- Handler notes
-
-### Delivery Map (If Available)
-Visual tracking:
-- Route visualization
-- Current location map
-- Delivery points
-- Warehouse locations
-- Geographic tracking
-
-## Customer Tracking Page
-
-### Public Tracking Link
-Share tracking with customers:
-1. Generate tracking link
-2. Share via:
-   - Email
-   - SMS
-   - WhatsApp
-   - Social media
-3. Customers can track independently
-
-### Public Tracking Information
-Customers can see:
-- Current status
-- Location
-- Estimated delivery
-- Contact information
-- Delivery instructions
-
-### Privacy Options
-Control what's visible:
-- Full tracking details
-- Status only
-- Estimated delivery only
-- Hide address details
-
-## Issue Resolution
-
-### Tracking Issues
-
-| Issue | Solution |
-|-------|----------|
-| No tracking info | Wait 24h, verify tracking number |
-| Tracking stopped | Contact carrier, check for issues |
-| Late delivery | Contact carrier, request status |
-| Wrong address | Contact customer, request correction |
-| Missing package | File claim with carrier |
-
-### Problem Scenarios
-
-#### Delayed Shipment
-1. Check last update
-2. Note current location
-3. Contact carrier
-4. Update customer
-5. Escalate if needed
-
-#### Failed Delivery
-1. View failure reason
-2. Contact customer about redelivery
-3. Arrange new delivery time
-4. Coordinate with carrier
-5. Notify customer of new date
-
-#### Lost Package
-1. Document issue
-2. Contact carrier immediately
-3. File insurance claim
-4. Communicate with customer
-5. Process refund/replacement
-
-#### Damaged Package
-1. Request photo evidence
-2. Document damage details
-3. File claim with carrier
-4. Contact customer
-5. Arrange replacement
-
-## Customer Communication
-
-### Automated Notifications
-System sends:
-- Shipment confirmation
-- Pickup notification
-- Transit updates
-- Delivery notification
-- Failed delivery alerts
-
-### Manual Communication
-1. Open shipment
-2. Click **Send Message** or **Hubungi Pelanggan**
-3. Choose communication method:
-   - Email
-   - SMS
-   - WhatsApp
-4. Customize message
-5. Send
-
-### Message Templates
-Available templates:
-- "Your package is on the way"
-- "Out for delivery today"
-- "Delivery rescheduled"
-- "Package delayed"
-- "Please reschedule"
-
-## Analytics & Reporting
-
-### Tracking Analytics
-- **Total Tracked Shipments**: Volume
-- **Average Delivery Time**: Time metric
-- **On-Time Delivery Rate**: Success %
-- **Failed Delivery Rate**: Problem %
-- **Customer Inquiries**: Support tickets
-
-### Generate Tracking Reports
-1. Go to **Reports**
-2. Select **Tracking Report**
-3. Choose date range
-4. Select filters (carrier, status, etc.)
-5. Download as PDF/Excel
-
-### Metrics Tracked
-- Delivery success rate
-- Average delivery days
-- Carrier comparison
-- Geographic performance
-- Peak periods
-- Problem areas
-
-## Mobile Tracking
-
-### Customer Mobile App
-- Real-time tracking
-- Push notifications
-- Map view
-- Photo evidence
-- Contact courier
-
-### Responsive Website
-- Mobile-friendly tracking
-- Simple interface
-- Fast loading
-- Easy sharing
-
-## Integration with Support
-
-### Support Ticket Integration
-- Link tracking to support tickets
-- Share tracking info with support team
-- Use tracking in dispute resolution
-- Reference tracking in communications
-
-### Escalation Process
-1. Escalate from tracking page
-2. Create support ticket
-3. Attach tracking data
-4. Assign to support team
-5. Monitor resolution
-
-## Best Practices
-
-1. ✅ Provide tracking ASAP after shipment
-2. ✅ Proactive notifications for delays
-3. ✅ Clear communication with customers
-4. ✅ Monitor tracking accuracy
-5. ✅ Address issues quickly
-6. ✅ Follow up on failed deliveries
-7. ✅ Regular carrier communication
-8. ✅ Data analysis for improvement
-
-## Tips for Customers
-
-Provide customers with:
-1. Tracking number in confirmation email
-2. Link to tracking page
-3. Expected delivery date
-4. Contact information
-5. Delivery instructions
-6. Return instructions
-7. Support contact
-
-## Troubleshooting
-
-| Issue | Solution |
-|-------|----------|
-| Can't find tracking | Verify tracking number, wait 24h |
-| Outdated information | Refresh page, wait for sync |
-| Can't contact carrier | Use website tracking directly |
-| Wrong tracking info | Contact support team |
-| Tracking link broken | Regenerate link, verify URL |
+Multiple tracking numbers can be entered:
+- Enter one or more tracking numbers
+- Separate multiple numbers with comma
+- Example: 012345678912, 012345678913
+- Click **Cek AWB** to search
 
 ## Next Steps
 

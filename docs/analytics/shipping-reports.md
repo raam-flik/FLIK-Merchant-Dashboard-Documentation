@@ -6,143 +6,88 @@ Comprehensive reporting on shipping and logistics performance.
 
 Shipping Reports provides detailed insights into your delivery operations and carrier performance.
 
-## Shipping Analytics Dashboard
+## FLIK Shipping Analytics Dashboard
 
 ![Laporan & Analisis FLIK Shipping](../../assets/screenshots/Laporan%20&%20Analisis%20FLIK%20Shipping/Laporan%20&%20Analisis%20FLIK%20Shipping.png)
 
-### Key Metrics
+### Summary Metrics
 
-#### Shipment Metrics
-- **Total Shipments**: Orders shipped
-- **Pending Shipments**: Not yet picked up
-- **In Transit**: Currently shipping
-- **Delivered**: Successfully delivered
-- **Failed**: Failed attempts
+The dashboard displays key metrics at the top:
 
-#### Delivery Performance
-- **On-Time Rate**: % delivered on time
-- **Average Delivery Time**: Days to deliver
-- **Success Rate**: % successful
-- **Failed Delivery Rate**: % failed
-- **Return Rate**: % returned
+- **Minggu Ini**: Current week filter indicator
+- **Total Pengiriman**: Total shipments count (e.g., 1)
+- **Berhasil**: Successful shipments count (e.g., 0)
+- **Dikembalikan**: Returned shipments count (e.g., 0)
+- **Bermasalah**: Problematic shipments count (e.g., 0)
 
-#### Cost Metrics
-- **Total Shipping Cost**: All costs
-- **Average Shipping Cost**: Per order
-- **Highest Cost**: Maximum
-- **Lowest Cost**: Minimum
-- **Cost per KG**: Weight ratio
+### Search Section
 
-#### Carrier Performance
-- **Shipments per Carrier**: Volume
-- **Success Rate by Carrier**: Performance
-- **Avg Delivery Time**: By carrier
-- **Cost per Carrier**: Comparison
-- **Customer Rating**: Satisfaction
+#### Search Bar
+- **Search field**: "Cari Order ID atau AWB" (Search by Order ID or AWB)
+- Search icon to find specific shipments
 
-### Report Filters
+#### Filter Dropdowns
+- **Status**: Filter by shipment status (Menunggu Pembayaran/Waiting for Payment, etc.)
+- **COD / Non COD**: Filter by payment method
+- **Kurir**: Filter by courier
+- **Warehouse**: Filter by warehouse location
 
-Filter by:
-- **Date Range**: Custom period
-- **Carrier**: Specific courier
-- **Warehouse**: Location
-- **Destination**: City/Region
-- **Status**: Delivered, Failed, etc.
-- **Shipping Method**: Type
+#### Action Button
+- **Export**: Button to export report data
 
-## Performance Analysis
+### Shipment Table
 
-### Delivery Success
-- **On-Time Deliveries**: Met estimate %
-- **Early Deliveries**: Before expected
-- **Late Deliveries**: After expected
-- **Failed Attempts**: Undeliverable
-- **Return Rate**: % returned
+#### Table Columns
+- **Order ID**: Internal order identifier (e.g., 674A50A4)
+- **AWB**: Airway bill number (tracking number)
+- **Kurir**: Courier service used (e.g., JNE)
+- **Layanan Kurir**: Courier service type (e.g., Regular)
+- **COD/Non COD**: Payment method indicator (COD - Cash on Delivery)
+- **Status**: Shipment status with colored badges:
+  - **Menunggu Pembayaran** (Waiting for Payment - Blue badge)
+- **Tanggal Pembuatan**: Shipment creation date and time (e.g., Apr 21, 2026 06:19)
 
-### Carrier Comparison
+### Example Shipment
 
-Compare carriers on:
-- **Delivery Speed**: Days taken
-- **Reliability**: Success rate %
-- **Cost**: Price comparison
-- **Customer Rating**: Satisfaction
-- **Issue Rate**: Problem %
+**Shipment 1: 674A50A4**
+- AWB: -
+- Courier: JNE
+- Service Type: Regular
+- Payment: COD
+- Status: Menunggu Pembayaran
+- Date: Apr 21, 2026 06:19
 
-### Geographic Performance
+### Pagination
+- Showing 1-1 of 1 records
+- Navigation: Prev, 1, Next
 
-Analyze by destination:
-- **By City**: Performance per city
-- **By Province**: Regional data
-- **By Zone**: Zone performance
-- **Red Zone Impact**: Red zone metrics
-- **Urban vs Rural**: Area comparison
+## How to Use
 
-## Cost Analysis
+### View Shipping Reports
+1. Navigate to **Laporan & Analisis** > **FLIK Shipping** from the left menu
+2. View summary metrics for the current week
+3. Browse shipments in the table
 
-### Shipping Costs
-- **Total Shipping Spend**: All costs
-- **Average per Order**: AOC
-- **Cost Distribution**: By carrier
-- **Cost Trends**: Over time
-- **Cost vs Revenue**: Ratio analysis
+### Search Shipments
+1. Use the search bar to find by Order ID or AWB
+2. Enter the ID and press search icon
 
-### Cost Optimization
+### Filter Shipments
+1. Click **Status** dropdown to filter by shipment status
+2. Click **COD / Non COD** dropdown to filter by payment method
+3. Click **Kurir** dropdown to filter by courier
+4. Click **Warehouse** dropdown to filter by warehouse location
+5. Multiple filters can be applied simultaneously
 
-- **Carrier Rates**: Compare pricing
-- **Volume Discounts**: Bulk benefits
-- **Method Comparison**: Delivery type
-- **Weight Impact**: Size charges
-- **Distance Impact**: Zone charges
+### Export Data
+1. Click **Export** button to export the report data
+2. Select desired format and confirm
 
-## Operational Metrics
+## Shipment Status
 
-### Warehouse Performance
-- **Shipments Processed**: Volume
-- **Processing Time**: Time to ship
-- **Pickup Success Rate**: Pickup %
-- **Error Rate**: Mistakes %
-- **Efficiency**: Orders/hour
+- **Menunggu Pembayaran** (Waiting for Payment): Shipment awaiting payment before processing
 
-### Inventory Impact
-- **Stock Levels**: Available inventory
-- **Inventory Turnover**: Sales speed
-- **Backorder Rate**: Out of stock %
-- **Dead Stock**: Unsold items
+## Next Steps
 
-## Customer Experience
-
-### Satisfaction Metrics
-- **Delivery Rating**: Customer score
-- **On-time %**: Promised timeline
-- **Damage Rate**: Broken items %
-- **Lost Shipments**: Missing %
-- **Issue Resolution**: Speed
-
-### Communication
-- **Notification Sent**: Updates sent
-- **Tracking Used**: % tracked
-- **Support Tickets**: Issues raised
-- **Issue Resolution Time**: Time to fix
-
-## Red Zone Analysis
-
-- **Red Zone Shipments**: Volume
-- **Red Zone % of Total**: Percentage
-- **Red Zone Success Rate**: Delivery %
-- **Red Zone Cost Impact**: Surcharge
-- **Red Zone Delivery Time**: Extended days
-
-## Best Practices
-
-- Monitor daily metrics
-- Review carrier performance monthly
-- Analyze cost trends
-- Track customer satisfaction
-- Optimize based on data
-- Compare carriers regularly
-- Set performance targets
-- Act on issues quickly
-
----
-
-[Back to Analytics](.)
+- Back to [Analytics Overview](.)
+- View [Checkout Reports](./checkout-reports.md)

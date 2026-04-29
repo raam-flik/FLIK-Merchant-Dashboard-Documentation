@@ -38,14 +38,32 @@ The dashboard displays key metrics at the top:
 ### Shipment Table
 
 #### Table Columns
-- **Order ID**: Internal order identifier (e.g., 674A50A4)
-- **AWB**: Airway bill number (tracking number)
-- **Kurir**: Courier service used (e.g., JNE)
-- **Layanan Kurir**: Courier service type (e.g., Regular)
-- **COD/Non COD**: Payment method indicator (COD - Cash on Delivery)
+- **Order ID**: Internal order identifier (e.g., 9902076080B ID)
+- **AWB**: Airway bill number (tracking number, e.g., WYB-170404285248)
+- **Kurir**: Courier service used with logo (JNE, AnterAja, GrabSend, GoBisend, SiCepat, J&T, etc.)
+- **Service**: Courier service type (Regular, Priority, etc.)
+- **COD / Non COD**: Payment method indicator
+  - **COD**: Cash on Delivery
+  - **NON COD**: Non-cash payment
 - **Status**: Shipment status with colored badges:
-  - **Menunggu Pembayaran** (Waiting for Payment - Blue badge)
-- **Tanggal Pembuatan**: Shipment creation date and time (e.g., Apr 21, 2026 06:19)
+  - **Pengiriman selesai** (Delivery Completed - Green badge)
+  - **Dibatalkan** (Cancelled - Red badge)
+  - **Tunggu pencairan (COD)** (Waiting for COD Settlement - Yellow badge)
+  - **Pengiriman.diproses** (In Processing - Yellow badge)
+  - **Dalam pengiriman** (In Transit - Yellow badge)
+- **Tanggal Pembuatan**: Shipment creation date (e.g., 10 Agustus 2024)
+- **Tanggal Update**: Last update date (e.g., 10 Agustus 2024)
+- **Sumber**: Source/origin of order (Checkout, Order Form, Jagaury, etc.)
+- **Nama Warehouse**: Warehouse name (e.g., Gudang Arkadia)
+- **Nama Shipper**: Shipper name (e.g., Gudrak Reklamung)
+- **No Telp**: Phone number (e.g., +6283820506649)
+- **Detail Pengiriman**: Detailed shipping information (e.g., 10 Sandal Swallow)
+- **Nama Produk**: Product name (e.g., Rp750000)
+- **Diskon / Subsiden Discount**: Discount amount (in Rp)
+- **Shipper Group**: Shipper group classification (e.g., Gudaragi Group)
+- **Diskon Ongkir**: Shipping discount amount (in Rp)
+- **COD Fee**: Cash on Delivery fee (in Rp)
+- **Komisi Jagaury**: Jagaury commission amount (in Rp)
 
 ### Example Shipment
 

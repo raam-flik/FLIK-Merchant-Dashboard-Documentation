@@ -63,7 +63,7 @@ The dashboard displays key metrics at the top:
 - **Shipper Group**: Shipper group classification (e.g., Gudaragi Group)
 - **Diskon Ongkir**: Shipping discount amount (in Rp)
 - **COD Fee**: Cash on Delivery fee (in Rp)
-- **Komisi Jagaury**: Jagaury commission amount (in Rp)
+- **Komisi Jagokurir**: Jagokurir commission amount (in Rp)
 
 ### Example Shipment
 

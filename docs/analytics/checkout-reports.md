@@ -38,16 +38,23 @@ The dashboard displays key metrics at the top:
 ### Orders Table
 
 #### Table Columns
-- **Order ID**: Internal order identifier (e.g., 02042026-MRMJXK-1)
-- **External Order ID**: Third-party order reference (e.g., #1232, #1231, #1230)
-- **Status**: Order status with colored badges:
-  - **Completed** (Green badge)
-  - **Processed** (Yellow badge)
-  - **Rejected** (Red badge)
-- **Tanggal Pesanan**: Order date and time (e.g., 2026/04/02 14:51)
-- **Nama Kasir**: Cashier name (shows "-" if none)
-- **Sumber**: Order source (Invoice, Checkout)
-- **Nama Shopper**: Customer name (e.g., raam, Rimantoro)
+- **No Toko Shopper**: Store number/shopper identifier
+- **Shopper Group**: Shopper group classification
+- **Nama Produk**: Product name
+- **Pembayaran**: Payment method with logo indicator (ShopeePayy, QRIS, Credit Card, GoPay, OVO, DANA, J&T, etc.)
+- **Ekspedisi**: Courier service (JNE, J&T, etc.)
+- **AWB**: Airway bill number
+- **Total Harga Barang**: Total product price amount (in Rp)
+- **Biaya Pengiriman**: Shipping fee amount (in Rp)
+- **Diskon FLIK**: FLIK discount amount (in Rp)
+- **Diskon Merchant**: Merchant discount amount (in Rp)
+- **FLIK Reward**: FLIK reward amount (in Rp)
+- **PG Fee**: Payment gateway fee (in Rp)
+- **PG VAT**: Payment gateway VAT (in Rp)
+- **Biaya Lain-Lain**: Other fees (in Rp)
+- **FLIK Commission**: FLIK commission amount (in Rp)
+- **Settlement Amount**: Settlement amount to be paid (in Rp)
+- **Settlement Date**: Date of settlement (e.g., Dec 7, 2019 23:26)
 
 ### Example Orders
 
